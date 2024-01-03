@@ -97,7 +97,7 @@ ideology_break_1_2_event.1 = {
 				custom_tooltip = would_happen_tt
 				show_as_tooltip = {
 					if = {
-						limit = { 
+						limit = {
 							empty_agitator_slots >= 1
 						}
 						create_character = {
@@ -331,7 +331,7 @@ ideology_break_1_2_event.4 = {
 		name = ideology_break_1_2_event.6.a
 		default_option = yes
 		if = {
-			limit = { 
+			limit = {
 				empty_agitator_slots >= 1
 			}
 			create_character = {

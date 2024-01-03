@@ -285,7 +285,7 @@
 				size = 40600
 			}
 			create_pop = {
-				culture = sephardic # Najran Jews
+				culture = sephardic	# Najran Jews
 				religion = jewish
 				size = 300
 			}
@@ -1138,7 +1138,7 @@
 				culture = bulgarian
 				size = 240
 			}
-			create_pop = { # "Latins"
+			create_pop = {	# "Latins"
 				culture = north_italian
 				size = 240
 			}
@@ -1343,7 +1343,7 @@
 				culture = armenian
 				size = 36003
 			}
-			create_pop = { # Hemshin
+			create_pop = {	# Hemshin
 				culture = armenian
 				religion = sunni
 				size = 10103
@@ -1352,7 +1352,7 @@
 				culture = greek
 				size = 135110
 			}
-			create_pop = { # Laz
+			create_pop = {	# Laz
 				culture = georgian
 				religion = sunni
 				size = 40320
@@ -1450,7 +1450,7 @@
 				culture = georgian
 				religion = sunni
 				size = 27000
-
+				
 			}
 			create_pop = {
 				culture = georgian

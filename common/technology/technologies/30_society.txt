@@ -12,7 +12,7 @@ urbanization = {
 		market_land_trade_capacity_add = 50
 	}
 	ai_weight = {
-		value = 3		# Very important in general
+		value = 3	# Very important in general
 	}
 }
 
@@ -31,7 +31,7 @@ urban_planning = {
 		urbanization
 	}
 	ai_weight = {
-		value = 2		# Important in general
+		value = 2	# Important in general
 	}
 }
 
@@ -45,7 +45,7 @@ rationalism = {
 		state_education_access_wealth_add = 0.005
 	}
 	ai_weight = {
-		value = 3		# Very important in general
+		value = 3	# Very important in general
 	}
 }
 
@@ -64,7 +64,7 @@ tech_bureaucracy = {
 		urbanization
 	}
 	ai_weight = {
-		value = 3		# Very important in general
+		value = 3	# Very important in general
 	}
 }
 
@@ -82,7 +82,7 @@ currency_standards = {
 		centralization
 	}
 	ai_weight = {
-		value = 3		# Very important in general
+		value = 3	# Very important in general
 	}
 }
 
@@ -100,7 +100,7 @@ democracy = {
 		rationalism
 	}
 	ai_weight = {
-		value = 3		# Very important in general
+		value = 3	# Very important in general
 	}
 }
 
@@ -121,7 +121,7 @@ romanticism = {
 		academia
 	}
 	ai_weight = {
-		value = 3		# Very important in general
+		value = 3	# Very important in general
 	}
 }
 
@@ -131,12 +131,12 @@ international_trade = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/international_trade.dds"
 	category = society
-
+	
 	unlocking_technologies = {
 		tech_bureaucracy
 	}
 	ai_weight = {
-		value = 3		# Very important in general
+		value = 3	# Very important in general
 	}
 }
 
@@ -153,7 +153,7 @@ centralization = {
 		tech_bureaucracy
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -166,14 +166,14 @@ corporate_charters = {
 		country_max_companies_add = 1
 		state_capitalists_investment_pool_efficiency_mult = 0.05
 		country_trade_route_quantity_mult = 0.15
-	}	
+	}
 	
 	unlocking_technologies = {
 		stock_exchange
 	}
 	
 	ai_weight = {
-		value = 3 # very important tech
+		value = 3	# very important tech
 	}
 }
 
@@ -190,7 +190,7 @@ banking = {
 		currency_standards
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -199,12 +199,12 @@ academia = {
 	era = era_1
 	texture = "gfx/interface/icons/invention_icons/academia.dds"
 	category = society
-
+	
 	unlocking_technologies = {
 		rationalism
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -241,7 +241,7 @@ international_relations = {
 		tech_bureaucracy
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -258,7 +258,7 @@ law_enforcement = {
 		urban_planning
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -292,7 +292,7 @@ medical_degrees = {
 		academia
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -308,7 +308,7 @@ mass_communication = {
 		democracy
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -325,7 +325,7 @@ empiricism = {
 		academia
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -400,7 +400,7 @@ modern_sewerage = {
 		urban_planning
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -468,7 +468,7 @@ central_archives = {
 		centralization
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -498,7 +498,7 @@ joint_stock_companies = {
 		country_max_companies_add = 1
 		state_urbanization_per_level_mult = -0.1
 		state_capitalists_investment_pool_efficiency_mult = 0.05
-	}	
+	}
 	
 	unlocking_technologies = {
 		banking
@@ -506,7 +506,7 @@ joint_stock_companies = {
 	}
 	
 	ai_weight = {
-		value = 2 # important tech
+		value = 2	# important tech
 	}
 }
 
@@ -577,7 +577,7 @@ nationalism = {
 		mass_communication
 		international_relations
 	}
-
+	
 	on_researched = {
 		if = {
 			limit = {
@@ -589,9 +589,9 @@ nationalism = {
 			}
 		}
 	}
-
+	
 	ai_weight = {
-		value = 2		# Important in general
+		value = 2	# Important in general
 		# Extra-important for major unifications
 		if = {
 			limit = {
@@ -603,7 +603,7 @@ nationalism = {
 				}
 			}
 			add = 2
-		}	
+		}
 		
 		if = {
 			limit = {
@@ -751,7 +751,7 @@ feminism = {
 			}
 		}
 	}
-
+	
 	unlocking_technologies = {
 		human_rights
 	}
@@ -792,7 +792,7 @@ steel_frame_buildings = {
 		modern_sewerage
 	}
 	ai_weight = {
-		value = 2		# Important in general
+		value = 2	# Important in general
 	}
 }
 
@@ -870,7 +870,7 @@ socialism = {
 		state_expected_sol_from_literacy = 1
 		country_institution_workplace_safety_max_investment_add = 2
 	}
-
+	
 	on_researched = {
 		if = {
 			limit = {
@@ -894,7 +894,7 @@ socialism = {
 				has_strategy = ai_strategy_egalitarian_agenda
 			}
 			add = -0.5
-		}	
+		}
 		if = {
 			limit = {
 				OR = {
@@ -911,7 +911,7 @@ corporatism = {
 	era = era_3
 	texture = "gfx/interface/icons/invention_icons/corporatism.dds"
 	category = society
-
+	
 	on_researched = {
 		if = {
 			limit = {
@@ -938,17 +938,17 @@ corporatism = {
 		value = 1
 		
 		if = {
-			limit = { 
+			limit = {
 				has_strategy = ai_strategy_egalitarian_agenda
 			}
 			add = -0.5
-		}	
+		}
 		if = {
-			limit = { 
+			limit = {
 				OR = {
 					has_strategy = ai_strategy_conservative_agenda
 					has_strategy = ai_strategy_reactionary_agenda
-				}			
+				}
 			}
 			add = 1.5
 		}
@@ -972,7 +972,7 @@ pan-nationalism = {
 		nationalism
 	}
 	ai_weight = {
-		value = 2		# Important in general
+		value = 2	# Important in general
 		# Extra-important for major unifications
 		if = {
 			limit = {
@@ -1018,7 +1018,7 @@ investment_banks = {
 		state_capitalists_investment_pool_efficiency_mult = 0.05
 		state_shopkeepers_investment_pool_efficiency_mult = 0.15
 		country_trade_route_competitiveness_mult = 0.05
-	}	
+	}
 	
 	unlocking_technologies = {
 		joint_stock_companies
@@ -1026,7 +1026,7 @@ investment_banks = {
 	}
 	
 	ai_weight = {
-		value = 2 # important tech
+		value = 2	# important tech
 	}
 }
 
@@ -1102,7 +1102,7 @@ elevator = {
 		steel_frame_buildings
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -1169,7 +1169,7 @@ central_planning = {
 		identification_documents
 	}
 	ai_weight = {
-		value = 1.5		# Important in general
+		value = 1.5	# Important in general
 	}
 }
 
@@ -1243,14 +1243,14 @@ corporate_management = {
 		country_max_companies_add = 1
 		state_urbanization_per_level_mult = -0.25
 		country_company_throughput_bonus_add = 0.05
-	}	
+	}
 	
 	unlocking_technologies = {
 		investment_banks
 	}
 	
 	ai_weight = {
-		value = 2 # important tech
+		value = 2	# important tech
 	}
 }
 
@@ -1422,7 +1422,7 @@ macroeconomics = {
 		corporate_management
 	}
 	ai_weight = {
-		value = 3 # very important tech
+		value = 3	# very important tech
 	}
 }
 
@@ -1472,7 +1472,7 @@ paved_roads = {
 		state_poor_standard_of_living_add = 1
 		building_urban_center_throughput_add = 0.15
 		building_motor_industry_throughput_add = 0.05
-
+		
 		country_max_weekly_construction_progress_add = 10
 		market_land_trade_capacity_add = 20
 	}
@@ -1480,6 +1480,6 @@ paved_roads = {
 		elevator
 	}
 	ai_weight = {
-		value = 2		# Important for those nice-looking roads!
+		value = 2	# Important for those nice-looking roads!
 	}
 }

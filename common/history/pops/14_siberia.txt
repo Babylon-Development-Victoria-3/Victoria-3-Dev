@@ -100,7 +100,7 @@
 			}
 		}
 	}
-
+	
 	s:STATE_OB = {
 		region_state:RUS = {
 			create_pop = {
@@ -125,7 +125,7 @@
 			}
 		}
 	}
-
+	
 	s:STATE_CHUKOTKA = {
 		region_state:RUS = {
 			create_pop = {
@@ -176,7 +176,7 @@
 			}
 		}
 	}
-
+	
 	s:STATE_YAKUTSK = {
 		region_state:RUS = {
 			create_pop = {
@@ -198,8 +198,7 @@
 			}
 		}
 	}
-
-
+	
 	s:STATE_TRANS_BAIKAL = {
 		region_state:RUS = {
 			create_pop = {

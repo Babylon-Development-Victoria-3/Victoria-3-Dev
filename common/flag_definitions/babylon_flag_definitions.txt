@@ -29,22 +29,22 @@ SIH = {
 		priority = 200
 		trigger = {
 			NOT = {
-			coa_def_republic_flag_trigger = yes
-			coa_def_dictatorship_flag_trigger = yes
+				coa_def_republic_flag_trigger = yes
+				coa_def_dictatorship_flag_trigger = yes
 			}
 		}
 	}
-		flag_definition = {
+	flag_definition = {
 		coa = SIH_republic
 		subject_canton = SIH_republic
 		priority = 100
 		trigger = {
 			OR = {
-			coa_def_republic_flag_trigger = yes
-			coa_def_dictatorship_flag_trigger = yes
+				coa_def_republic_flag_trigger = yes
+				coa_def_dictatorship_flag_trigger = yes
 			}
 			NOT = {
-			coa_def_subject_trigger = yes
+				coa_def_subject_trigger = yes
 			}
 		}
 	}
@@ -57,36 +57,36 @@ YUE = {
 		priority = 100
 		trigger = {
 			NOT = {
-			coa_def_republic_flag_trigger = yes
-			coa_def_dictatorship_flag_trigger = yes
+				coa_def_republic_flag_trigger = yes
+				coa_def_dictatorship_flag_trigger = yes
 			}
 		}
 	}
 	
 	flag_definition = {
-	coa = YUE_republic
-	subject_canton = YUE_republic
-	priority = 200
-	trigger = {
+		coa = YUE_republic
+		subject_canton = YUE_republic
+		priority = 200
+		trigger = {
 			OR = {
-			coa_def_republic_flag_trigger = yes
-			coa_def_dictatorship_flag_trigger = yes
+				coa_def_republic_flag_trigger = yes
+				coa_def_dictatorship_flag_trigger = yes
 			}
 			NOT = {
-			coa_def_subject_trigger = yes
+				coa_def_subject_trigger = yes
 			}
 		}
 	}
 }
 
-MCH = { # Manchuria
+MCH = {	# Manchuria
 	flag_definition = {
 		coa = MCH
 		allow_overlord_canton = no
 		subject_canton = MCH
 		priority = 1
 	}
-
+	
 	flag_definition = {
 		coa = MCH_qing
 		priority = 2
@@ -100,14 +100,14 @@ MCH = { # Manchuria
 				}
 			}
 		}
-	}		
+	}
 }
 
-MGL = { # Mongolia
+MGL = {	# Mongolia
 	flag_definition = {
 		coa = MGL
-		allow_overlord_canton = yes		
-		coa_with_overlord_canton = MGL_subject			
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = MGL_subject
 		subject_canton = MGL
 		priority = 1
 	}
@@ -124,35 +124,35 @@ MGL = { # Mongolia
 				}
 			}
 		}
-	}	
+	}
 	flag_definition = {
 		coa = MGL_republic
 		subject_canton = MGL_republic
 		priority = 10
-		trigger = { 
+		trigger = {
 			coa_def_republic_flag_trigger = yes
 		}
-	}		
+	}
 	flag_definition = {
 		coa = MGL_communist
 		priority = 1500
-		trigger = { 
+		trigger = {
 			coa_def_communist_flag_trigger = yes
 		}
-	}		
+	}
 }
 
-POL = { # Poland
+POL = {	# Poland
 	flag_definition = {
 		coa = POL
 		subject_canton = POL
 		priority = 1
-	}	
+	}
 	flag_definition = {
 		coa = POL_republic
 		subject_canton = POL_republic
 		priority = 10
-		trigger = { 
+		trigger = {
 			coa_def_republic_flag_trigger = yes
 		}
 	}
@@ -160,7 +160,7 @@ POL = { # Poland
 		coa = POL_oligarchy
 		subject_canton = POL_oligarchy
 		priority = 25
-		trigger = { 
+		trigger = {
 			coa_def_oligarchy_flag_trigger = yes
 		}
 	}
@@ -168,10 +168,10 @@ POL = { # Poland
 		coa = POL_fascist
 		subject_canton = POL_fascist
 		priority = 1500
-		trigger = { 
+		trigger = {
 			coa_def_fascist_flag_trigger = yes
 		}
-	}	
+	}
 	flag_definition = {
 		coa = POL_dictatorship
 		subject_canton = POL_dictatorship
@@ -179,11 +179,11 @@ POL = { # Poland
 		trigger = {
 			coa_def_dictatorship_flag_trigger = yes
 		}
-	}	
+	}
 	flag_definition = {
 		coa = POL_republic
 		priority = 1500
-		trigger = { 
+		trigger = {
 			coa_def_communist_flag_trigger = yes
 		}
 	}
@@ -201,13 +201,13 @@ POL = { # Poland
 				}
 			}
 		}
-	}	
+	}
 }
 
-GEO = { # Georgia
+GEO = {	# Georgia
 	flag_definition = {
 		coa = GEO
-		allow_overlord_canton = yes				
+		allow_overlord_canton = yes
 		subject_canton = GEO
 		priority = 1
 	}
@@ -215,14 +215,14 @@ GEO = { # Georgia
 		coa = GEO_theocracy
 		subject_canton = GEO_theocracy
 		priority = 20
-		trigger = { 
+		trigger = {
 			coa_def_theocracy_flag_trigger = yes
 		}
 	}
 	flag_definition = {
 		coa = GEO_rus
 		priority = 30
-		trigger = { 
+		trigger = {
 			exists = c:RUS
 			c:RUS = {
 				has_diplomatic_pact = {
@@ -236,18 +236,18 @@ GEO = { # Georgia
 	flag_definition = {
 		coa = GEO_communist
 		priority = 1500
-		trigger = { 
+		trigger = {
 			coa_def_communist_flag_trigger = yes
 		}
-	}		
+	}
 }
 
-BUL = { # Bulgaria
+BUL = {	# Bulgaria
 	flag_definition = {
 		coa = BUL
-		subject_canton = BUL	
-		allow_overlord_canton = yes		
-		coa_with_overlord_canton = BUL_subject			
+		subject_canton = BUL
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = BUL_subject
 		priority = 1
 	}
 	flag_definition = {
@@ -266,10 +266,10 @@ BUL = { # Bulgaria
 	}
 }
 
-KUR = { #Kurdistan
+KUR = {	#Kurdistan
 	flag_definition = {
 		coa = KUR
-		subject_canton = KUR			
+		subject_canton = KUR
 		priority = 1
 	}
 	flag_definition = {

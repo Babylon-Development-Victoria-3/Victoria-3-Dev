@@ -22,10 +22,10 @@ babylon_bulgarian_independence.1 = {
 			traits = {
 			}
 		}
-		c:BUL = { 
-			heir = { 
-				disinherit_character = yes 
-			} 
+		c:BUL = {
+			heir = {
+				disinherit_character = yes
+			}
 		}
 	}
 	option = {

@@ -1,11 +1,11 @@
 ﻿pm_early_trains = {
 	texture = "gfx/interface/icons/production_method_icons/experimental_trains.dds"
-
+	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 5 # 300
-			goods_input_coal_add = 2 # 60
-			goods_output_transportation_add = 20 # 600
+			goods_input_engines_add = 5	# 300
+			goods_input_coal_add = 2	# 60
+			goods_output_transportation_add = 20	# 600
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -13,7 +13,7 @@
 			building_employment_clerks_add = 750
 		}
 	}
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 20
@@ -29,16 +29,16 @@
 
 pm_steam_trains = {
 	texture = "gfx/interface/icons/production_method_icons/trains_steam.dds"
-
+	
 	unlocking_technologies = {
 		steel_railway_cars
 	}
-
+	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 5 # 300
-			goods_input_coal_add = 5 # 150
-			goods_output_transportation_add = 25 # 750
+			goods_input_engines_add = 5	# 300
+			goods_input_coal_add = 5	# 150
+			goods_output_transportation_add = 25	# 750
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2500
@@ -46,7 +46,7 @@ pm_steam_trains = {
 			building_employment_clerks_add = 750
 		}
 	}
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 25
@@ -61,12 +61,12 @@ pm_electric_trains = {
 	unlocking_technologies = {
 		electric_railway
 	}
-
+	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 5 # 300
-			goods_input_electricity_add = 10 # 300
-			goods_output_transportation_add = 35 # 1050
+			goods_input_engines_add = 5	# 300
+			goods_input_electricity_add = 10	# 300
+			goods_output_transportation_add = 35	# 1050
 		}
 		level_scaled = {
 			building_employment_laborers_add = 2000
@@ -74,7 +74,7 @@ pm_electric_trains = {
 			building_employment_clerks_add = 750
 		}
 	}
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 30
@@ -85,21 +85,21 @@ pm_electric_trains = {
 			market_land_trade_capacity_add = 0.45
 		}
 	}
-
+	
 	required_input_goods = electricity
 }
 
 pm_diesel_trains = {
-	texture = "gfx/interface/icons/production_method_icons/trains_diesel.dds"	
+	texture = "gfx/interface/icons/production_method_icons/trains_diesel.dds"
 	unlocking_technologies = {
 		compression_ignition
 	}
-
+	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 5 # 300
-			goods_input_oil_add = 10 # 400
-			goods_output_transportation_add = 40 # 1200
+			goods_input_engines_add = 5	# 300
+			goods_input_oil_add = 10	# 400
+			goods_output_transportation_add = 40	# 1200
 		}
 		level_scaled = {
 			building_employment_laborers_add = 1500
@@ -107,7 +107,7 @@ pm_diesel_trains = {
 			building_employment_clerks_add = 750
 		}
 	}
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 40
@@ -127,7 +127,7 @@ pm_no_passenger_trains = {
 
 pm_wooden_passenger_carriages = {
 	texture = "gfx/interface/icons/production_method_icons/passenger_trains.dds"
-
+	
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_wood_add = 8
@@ -136,16 +136,16 @@ pm_wooden_passenger_carriages = {
 		level_scaled = {
 			building_employment_clerks_add = 250
 		}
-	}			
+	}
 }
 
 pm_steel_passenger_carriages = {
 	texture = "gfx/interface/icons/production_method_icons/passenger_carriages.dds"
-
+	
 	unlocking_technologies = {
 		steel_railway_cars
 	}
-
+	
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_steel_add = 5
@@ -154,7 +154,7 @@ pm_steel_passenger_carriages = {
 		level_scaled = {
 			building_employment_clerks_add = 500
 		}
-	}			
+	}
 }
 
 pm_privately_owned_building_railway = {
@@ -165,7 +165,7 @@ pm_privately_owned_building_railway = {
 		law_cooperative_ownership
 	}
 	
-	building_modifiers = { 
+	building_modifiers = {
 		level_scaled = {
 			building_employment_capitalists_add = 250
 		}
@@ -177,17 +177,17 @@ pm_privately_owned_building_railway = {
 
 pm_publicly_traded_building_railway = {
 	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
-
+	
 	disallowing_laws = {
 		law_command_economy
 		law_cooperative_ownership
 	}
-
+	
 	unlocking_technologies = {
 		mutual_funds
 	}
 	
-	building_modifiers = { 
+	building_modifiers = {
 		level_scaled = {
 			building_employment_capitalists_add = 350
 		}
@@ -199,14 +199,14 @@ pm_publicly_traded_building_railway = {
 
 pm_government_run_building_railway = {
 	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
-
+	
 	unlocking_laws = {
 		law_command_economy
 		law_interventionism
 		law_agrarianism
 	}
 	
-	building_modifiers = { 
+	building_modifiers = {
 		level_scaled = {
 			building_employment_bureaucrats_add = 400
 		}
@@ -218,7 +218,7 @@ pm_government_run_building_railway = {
 
 pm_worker_cooperative_building_railway = {
 	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
-
+	
 	unlocking_laws = {
 		law_cooperative_ownership
 	}
@@ -250,7 +250,7 @@ pm_trade_center_merchant_guilds = {
 		law_mercantilism
 	}
 	
-	building_modifiers = { 
+	building_modifiers = {
 		level_scaled = {
 			building_employment_shopkeepers_add = 250
 		}
@@ -269,12 +269,12 @@ pm_trade_center_privately_owned = {
 		law_mercantilism
 	}
 	
-	building_modifiers = { 
+	building_modifiers = {
 		level_scaled = {
 			building_employment_clerks_add = 200
 			building_employment_capitalists_add = 50
 		}
-		unscaled = {		
+		unscaled = {
 			building_capitalists_shares_add = 10
 		}
 	}
@@ -282,18 +282,18 @@ pm_trade_center_privately_owned = {
 
 pm_trade_center_government_run = {
 	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
-
+	
 	unlocking_laws = {
 		law_command_economy
 		law_cooperative_ownership
 	}
 	
-	building_modifiers = { 
+	building_modifiers = {
 		level_scaled = {
 			building_employment_clerks_add = 125
 			building_employment_bureaucrats_add = 125
 		}
-		unscaled = {		
+		unscaled = {
 			building_government_shares_add = 1
 		}
 	}

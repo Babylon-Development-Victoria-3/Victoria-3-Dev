@@ -2,19 +2,19 @@
 je_chinese_national_identity = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	group = je_group_historical_content
-
-	complete = {	
+	
+	complete = {
 		any_country = {
 			filter = {
 				OR = {
 					country_has_primary_culture = cu:han
-					country_has_primary_culture = cu:manchu				
+					country_has_primary_culture = cu:manchu
 				}
 			}
-				has_technology_researched = nationalism	
-				percent >= 0.75
+			has_technology_researched = nationalism
+			percent >= 0.75
 		}
-
+		
 		NOT = {
 			has_law = law_type:law_no_schools
 		}
@@ -34,7 +34,7 @@ je_chinese_national_identity = {
 je_end_han_discrimination = {
 	icon = "gfx/interface/icons/event_icons/event_fire.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		has_law = law_type:law_cultural_exclusion
 	}
@@ -74,7 +74,7 @@ je_end_han_discrimination = {
 je_qing_administrative_reform = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		AND = {
 			institution_investment_level = {
@@ -134,7 +134,7 @@ je_qing_administrative_reform = {
 je_end_female_infanticide = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		OR = {
 			has_law = law_type:law_women_in_the_workplace
@@ -150,7 +150,7 @@ je_end_female_infanticide = {
 je_rural_poverty_qing = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		average_sol >= 10
 		NOT = {
@@ -225,7 +225,7 @@ je_rural_poverty_qing = {
 je_investigate_military_reform = {
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		has_technology_researched = line_infantry
 		NOT = {
@@ -256,7 +256,7 @@ je_investigate_military_reform = {
 je_reform_the_banner_system_local = {
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		AND = {
 			army_size >= 50
@@ -319,7 +319,7 @@ je_reform_the_banner_system_local = {
 je_reform_the_banner_system_modern = {
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		AND = {
 			army_size >= 150
@@ -376,7 +376,7 @@ je_establish_local_armies = {
 	#Common
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		army_size >= 50
 		has_technology_researched = napoleonic_warfare
@@ -429,7 +429,7 @@ je_establish_local_armies = {
 je_rural_poverty_substate = {
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		average_sol >= 10
 		NOT = {
@@ -463,7 +463,7 @@ je_rural_poverty_substate = {
 je_industrialize_china = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		OR = {
 			any_scope_state = {
@@ -476,7 +476,7 @@ je_industrialize_china = {
 				}
 				percent > 0.75
 			}
-
+			
 			pop_type_percent_country = {
 				pop_type = peasants
 				percent < 0.35
@@ -496,7 +496,7 @@ je_industrialize_china = {
 je_promote_western_learning = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		has_technology_researched = dialectics
 		any_scope_building = {
@@ -530,7 +530,7 @@ je_pacify_highland_tribes = {
 	#Sichuan
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	group = je_group_historical_content
-
+	
 	modifiers_while_active = {
 		modifier_tusi_system
 	}
@@ -581,7 +581,7 @@ je_gateway_to_the_west = {
 	#Liangguang
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		AND = {
 			any_scope_building = {
@@ -614,7 +614,7 @@ je_breadbasket_of_the_south = {
 	#Huguang
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 	group = je_group_historical_content
-
+	
 	modifiers_while_active = {
 		modifier_breadbasket_of_the_south
 	}
@@ -653,7 +653,7 @@ je_settle_the_steppe = {
 	#Eastern Provinces
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		has_law = law_type:law_cultural_exclusion
 		s:STATE_SHENGJING.region_state:MCH = {
@@ -697,7 +697,7 @@ je_pacify_and_settle_taiwan = {
 	#Formosa
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 	group = je_group_historical_content
-
+	
 	complete = {
 		pop_type_percent_country = {
 			pop_type = peasants
@@ -742,7 +742,7 @@ je_silk_march = {
 	#Gansu
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	group = je_group_historical_content
-
+	
 	modifiers_while_active = {
 		modifier_weathered_march
 	}

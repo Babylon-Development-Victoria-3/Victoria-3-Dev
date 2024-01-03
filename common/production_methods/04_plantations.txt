@@ -1,12 +1,12 @@
 ﻿default_building_coffee_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
-
+	
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods
 			goods_output_coffee_add = 20
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 4000
@@ -18,13 +18,13 @@
 
 automatic_irrigation_building_coffee_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		pumpjacks
 	}
@@ -35,7 +35,7 @@ automatic_irrigation_building_coffee_plantation = {
 			goods_input_engines_add = 5
 			goods_output_coffee_add = 40
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 3000
@@ -48,42 +48,42 @@ automatic_irrigation_building_coffee_plantation = {
 
 pm_steam_rail_transport = {
 	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 10
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		railways
 	}
-		
+	
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods					
 			goods_input_transportation_add = 5
 		}
-
+		
 		level_scaled = {
-			building_employment_laborers_add = -1000	
+			building_employment_laborers_add = -1000
 		}
 	}
 }
 
 pm_privately_owned_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
-
+	
 	disallowing_laws = {
 		law_collectivized_agriculture
 	}
-
+	
 	building_modifiers = {
 		level_scaled = {
 			building_employment_aristocrats_add = 100
 		}
 		unscaled = {
-			building_aristocrats_shares_add = 5 
+			building_aristocrats_shares_add = 5
 			building_clergymen_shares_add = 2
 			building_farmers_shares_add = 1
 		}
@@ -92,23 +92,23 @@ pm_privately_owned_plantation = {
 
 pm_publicly_traded_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
-
+	
 	disallowing_laws = {
 		law_collectivized_agriculture
 	}
-
+	
 	unlocking_technologies = {
 		mutual_funds
 	}
-
+	
 	building_modifiers = {
 		level_scaled = {
 			building_employment_aristocrats_add = 75
 			building_employment_capitalists_add = 75
 		}
 		unscaled = {
-			building_aristocrats_shares_add = 5 
-			building_capitalists_shares_add = 10 
+			building_aristocrats_shares_add = 5
+			building_capitalists_shares_add = 10
 			building_clergymen_shares_add = 2
 			building_farmers_shares_add = 1
 		}
@@ -134,30 +134,30 @@ pm_government_run_plantation = {
 
 pm_worker_cooperative_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
-
+	
 	unlocking_laws = {
 		law_collectivized_agriculture
 	}
-
+	
 	building_modifiers = {
 		level_scaled = {
 			building_employment_farmers_add = 250
-		}		
+		}
 		unscaled = {
-			building_workforce_shares_add = 1			
+			building_workforce_shares_add = 1
 		}
 	}
 }
 
 default_building_cotton_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
-
+	
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods
 			goods_output_fabric_add = 40
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 4000
@@ -169,13 +169,13 @@ default_building_cotton_plantation = {
 
 automatic_irrigation_building_cotton_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		pumpjacks
 	}
@@ -186,7 +186,7 @@ automatic_irrigation_building_cotton_plantation = {
 			goods_input_engines_add = 5
 			goods_output_fabric_add = 100
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 3000
@@ -205,7 +205,7 @@ default_building_dye_plantation = {
 			# output goods
 			goods_output_dye_add = 25
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 4000
@@ -217,13 +217,13 @@ default_building_dye_plantation = {
 
 automatic_irrigation_building_dye_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		pumpjacks
 	}
@@ -234,7 +234,7 @@ automatic_irrigation_building_dye_plantation = {
 			goods_input_engines_add = 5
 			goods_output_dye_add = 50
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 3000
@@ -253,7 +253,7 @@ default_building_opium_plantation = {
 			# output goods	
 			goods_output_opium_add = 20
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 4000
@@ -265,13 +265,13 @@ default_building_opium_plantation = {
 
 automatic_irrigation_building_opium_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		pumpjacks
 	}
@@ -282,7 +282,7 @@ automatic_irrigation_building_opium_plantation = {
 			goods_input_engines_add = 5
 			goods_output_opium_add = 50
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 3000
@@ -295,13 +295,13 @@ automatic_irrigation_building_opium_plantation = {
 
 default_building_tea_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
-
+	
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods
 			goods_output_tea_add = 20
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 4000
@@ -313,13 +313,13 @@ default_building_tea_plantation = {
 
 automatic_irrigation_building_tea_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		pumpjacks
 	}
@@ -330,7 +330,7 @@ automatic_irrigation_building_tea_plantation = {
 			goods_input_engines_add = 5
 			goods_output_tea_add = 40
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 3000
@@ -349,7 +349,7 @@ default_building_tobacco_plantation = {
 			# output goods
 			goods_output_tobacco_add = 25
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 4000
@@ -361,13 +361,13 @@ default_building_tobacco_plantation = {
 
 automatic_irrigation_building_tobacco_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		pumpjacks
 	}
@@ -378,7 +378,7 @@ automatic_irrigation_building_tobacco_plantation = {
 			goods_input_engines_add = 5
 			goods_output_tobacco_add = 50
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 3000
@@ -391,13 +391,13 @@ automatic_irrigation_building_tobacco_plantation = {
 
 default_building_sugar_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
-
+	
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods
 			goods_output_sugar_add = 30
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 4000
@@ -409,13 +409,13 @@ default_building_sugar_plantation = {
 
 automatic_irrigation_building_sugar_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		pumpjacks
 	}
@@ -426,7 +426,7 @@ automatic_irrigation_building_sugar_plantation = {
 			goods_input_engines_add = 5
 			goods_output_sugar_add = 60
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 3000
@@ -439,12 +439,12 @@ automatic_irrigation_building_sugar_plantation = {
 
 default_building_banana_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
-
+	
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_fruit_add = 30
 		}
-
+		
 		level_scaled = {
 			building_employment_laborers_add = 4000
 			building_employment_farmers_add = 800
@@ -455,13 +455,13 @@ default_building_banana_plantation = {
 
 automatic_irrigation_building_banana_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		pumpjacks
 	}
@@ -472,7 +472,7 @@ automatic_irrigation_building_banana_plantation = {
 			goods_input_engines_add = 5
 			goods_output_fruit_add = 60
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 3000
@@ -485,13 +485,13 @@ automatic_irrigation_building_banana_plantation = {
 
 default_building_silk_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
-
+	
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods
 			goods_output_silk_add = 20
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 4000
@@ -503,13 +503,13 @@ default_building_silk_plantation = {
 
 automatic_irrigation_building_silk_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		pumpjacks
 	}
@@ -520,7 +520,7 @@ automatic_irrigation_building_silk_plantation = {
 			goods_input_engines_add = 5
 			goods_output_silk_add = 40
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 3000
@@ -533,13 +533,13 @@ automatic_irrigation_building_silk_plantation = {
 
 default_building_vineyard_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/plantation_production.dds"
-
+	
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods
 			goods_output_wine_add = 20
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 4000
@@ -551,13 +551,13 @@ default_building_vineyard_plantation = {
 
 automatic_irrigation_building_vineyard_plantation = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_irrigation.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
 		}
 	}
-		
+	
 	unlocking_technologies = {
 		pumpjacks
 	}
@@ -568,7 +568,7 @@ automatic_irrigation_building_vineyard_plantation = {
 			goods_input_engines_add = 5
 			goods_output_wine_add = 40
 		}
-
+		
 		level_scaled = {
 			# profit
 			building_employment_laborers_add = 3000

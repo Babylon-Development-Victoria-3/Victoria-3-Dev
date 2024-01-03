@@ -33,7 +33,7 @@ pmg_naval_training_standards = {
 }
 
 pmg_naval_officer_standards = {
-	texture = "gfx/interface/icons/military_icons/overseas_supply.dds"	
+	texture = "gfx/interface/icons/military_icons/overseas_supply.dds"
 	ai_selection = most_productive
 	production_methods = {
 		pm_basic_officer_training

@@ -18,15 +18,15 @@ law_chiefdom = {
 	pop_support = {
 		value = 0
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -71,7 +71,7 @@ law_monarchy = {
 			has_monarchist_ideology = yes
 		}
 	}
-
+	
 	on_activate = {
 		if = {
 			limit = {
@@ -110,15 +110,15 @@ law_monarchy = {
 			}
 		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -186,9 +186,9 @@ law_presidential_republic = {
 			has_ideology = ideology:ideology_republican_leader
 		}
 	}
-
+	
 	ai_enact_weight_modifier = {
-		value = 0		
+		value = 0
 		if = {
 			limit = {
 				has_journal_entry = je_pedro_republic
@@ -196,10 +196,10 @@ law_presidential_republic = {
 			add = 100
 		}
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -272,15 +272,15 @@ law_parliamentary_republic = {
 			has_ideology = ideology:ideology_republican_leader
 		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -326,15 +326,15 @@ law_theocracy = {
 			has_ideology = ideology:ideology_theocrat
 		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -368,9 +368,9 @@ law_council_republic = {
 				remove_ideology = ideology_constitutionalist
 				add_ideology = ideology_republican
 			}
-		}	
-	}		
-
+		}
+	}
+	
 	modifier = {
 		country_legitimacy_govt_total_votes_add = 15
 		country_legitimacy_govt_size_add = 1
@@ -379,7 +379,7 @@ law_council_republic = {
 		country_farmers_pol_str_mult = 0.1
 		interest_group_ig_trade_unions_pop_attraction_mult = 0.13
 		country_authority_add = 25
-		country_law_enactment_time_mult = 0.10 #For Balance Purposes
+		country_law_enactment_time_mult = 0.10	#For Balance Purposes
 	}
 	possible_political_movements = {
 		law_presidential_republic
@@ -408,15 +408,15 @@ law_council_republic = {
 			}
 		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}

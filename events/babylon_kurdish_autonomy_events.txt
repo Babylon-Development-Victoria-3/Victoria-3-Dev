@@ -31,9 +31,9 @@ babylon_kurdish_autonomy_event.1 = {
 				}
 			}
 			hidden_effect = {
-                c:KUR = {
-                    make_independent = yes
-                }
+				c:KUR = {
+					make_independent = yes
+				}
 			}
 			create_diplomatic_pact = {
 				country = c:KUR

@@ -86,7 +86,7 @@ grain = {
 	traded_quantity = 10
 	convoy_cost_multiplier = 0.25
 	
-	consumption_tax_cost = 550 # was 500
+	consumption_tax_cost = 550	# was 500
 }
 
 fish = {
@@ -99,7 +99,7 @@ fish = {
 	traded_quantity = 10
 	convoy_cost_multiplier = 0.25
 	
-	consumption_tax_cost = 350 # was 300
+	consumption_tax_cost = 350	# was 300
 }
 
 fabric = {
@@ -112,7 +112,7 @@ fabric = {
 	traded_quantity = 10
 	convoy_cost_multiplier = 0.25
 	
-	consumption_tax_cost = 400 # was 300
+	consumption_tax_cost = 400	# was 300
 }
 
 wood = {
@@ -125,7 +125,7 @@ wood = {
 	traded_quantity = 10
 	convoy_cost_multiplier = 0.25
 	
-	consumption_tax_cost = 400 # was 300
+	consumption_tax_cost = 400	# was 300
 }
 
 groceries = {
@@ -138,7 +138,7 @@ groceries = {
 	traded_quantity = 7.5
 	convoy_cost_multiplier = 0.5
 	
-	consumption_tax_cost = 400 # was 300
+	consumption_tax_cost = 400	# was 300
 }
 
 clothes = {
@@ -151,7 +151,7 @@ clothes = {
 	traded_quantity = 7.5
 	convoy_cost_multiplier = 0.5
 	
-	consumption_tax_cost = 450 # was 300
+	consumption_tax_cost = 450	# was 300
 }
 
 furniture = {
@@ -164,7 +164,7 @@ furniture = {
 	traded_quantity = 7.5
 	convoy_cost_multiplier = 0.5
 	
-	consumption_tax_cost = 450 # was 300
+	consumption_tax_cost = 450	# was 300
 }
 
 paper = {
@@ -177,7 +177,7 @@ paper = {
 	traded_quantity = 7.5
 	convoy_cost_multiplier = 0.5
 	
-	consumption_tax_cost = 300 # was 200
+	consumption_tax_cost = 300	# was 200
 }
 
 services = {
@@ -188,7 +188,7 @@ services = {
 	
 	prestige_factor = 3
 	
-	consumption_tax_cost = 500 # was 200
+	consumption_tax_cost = 500	# was 200
 }
 
 transportation = {
@@ -196,10 +196,10 @@ transportation = {
 	cost = 30
 	category = staple
 	local = yes
-
+	
 	prestige_factor = 4
 	
-	consumption_tax_cost = 300 # was 200
+	consumption_tax_cost = 300	# was 200
 }
 
 electricity = {
@@ -271,7 +271,7 @@ coal = {
 	traded_quantity = 7.5
 	convoy_cost_multiplier = 0.75
 	
-	consumption_tax_cost = 300 # was 200
+	consumption_tax_cost = 300	# was 200
 }
 
 iron = {
@@ -313,8 +313,8 @@ oil = {
 	
 	prestige_factor = 5
 	
-	consumption_tax_cost = 300 # was 200
-}	
+	consumption_tax_cost = 300	# was 200
+}
 
 engines = {
 	texture = "gfx/interface/icons/goods_icons/locomotives.dds"
@@ -341,8 +341,8 @@ glass = {
 	category = industrial
 	
 	prestige_factor = 5
-
-	consumption_tax_cost = 250 # was default
+	
+	consumption_tax_cost = 250	# was default
 }
 
 fertilizer = {
@@ -386,8 +386,8 @@ porcelain = {
 	obsession_chance = 1.0
 	prestige_factor = 5
 	convoy_cost_multiplier = 0.75
-
-	consumption_tax_cost = 250 # was default
+	
+	consumption_tax_cost = 250	# was default
 }
 
 meat = {
@@ -401,7 +401,7 @@ meat = {
 	traded_quantity = 7.5
 	convoy_cost_multiplier = 0.75
 	
-	consumption_tax_cost = 300 # was 200
+	consumption_tax_cost = 300	# was 200
 }
 
 fruit = {
@@ -415,7 +415,7 @@ fruit = {
 	traded_quantity = 7.5
 	convoy_cost_multiplier = 0.75
 	
-	consumption_tax_cost = 300 # was 200
+	consumption_tax_cost = 300	# was 200
 }
 
 liquor = {
@@ -428,8 +428,8 @@ liquor = {
 	
 	traded_quantity = 7.5
 	convoy_cost_multiplier = 0.75
-
-	consumption_tax_cost = 250 # was default
+	
+	consumption_tax_cost = 250	# was default
 }
 
 wine = {
@@ -440,8 +440,8 @@ wine = {
 	obsession_chance = 2.0
 	prestige_factor = 5
 	convoy_cost_multiplier = 0.75
-
-	consumption_tax_cost = 250 # was default
+	
+	consumption_tax_cost = 250	# was default
 }
 
 tea = {
@@ -452,8 +452,8 @@ tea = {
 	obsession_chance = 1.5
 	prestige_factor = 4
 	convoy_cost_multiplier = 0.75
-
-	consumption_tax_cost = 250 # was default
+	
+	consumption_tax_cost = 250	# was default
 }
 
 coffee = {
@@ -464,8 +464,8 @@ coffee = {
 	obsession_chance = 1.5
 	prestige_factor = 4
 	convoy_cost_multiplier = 0.75
-
-	consumption_tax_cost = 250 # was 250
+	
+	consumption_tax_cost = 250	# was 250
 }
 
 sugar = {
@@ -478,11 +478,11 @@ sugar = {
 	
 	traded_quantity = 7.5
 	convoy_cost_multiplier = 0.75
-
-	consumption_tax_cost = 250 # was default
+	
+	consumption_tax_cost = 250	# was default
 }
 
-tobacco = {	
+tobacco = {
 	texture = "gfx/interface/icons/goods_icons/tobacco.dds"
 	cost = 40
 	category = luxury
@@ -490,8 +490,8 @@ tobacco = {
 	obsession_chance = 2.0
 	prestige_factor = 4
 	convoy_cost_multiplier = 0.75
-
-	consumption_tax_cost = 250 # was default
+	
+	consumption_tax_cost = 250	# was default
 }
 
 opium = {
@@ -502,8 +502,8 @@ opium = {
 	obsession_chance = 2.0
 	prestige_factor = 4
 	convoy_cost_multiplier = 0.75
-
-	consumption_tax_cost = 250 # was default
+	
+	consumption_tax_cost = 250	# was default
 }
 
 automobiles = {
@@ -527,7 +527,7 @@ telephones = {
 
 radios = {
 	texture = "gfx/interface/icons/goods_icons/radios.dds"
-	cost = 80 
+	cost = 80
 	category = luxury
 	
 	obsession_chance = 1.0
@@ -542,8 +542,8 @@ luxury_clothes = {
 	obsession_chance = 1.0
 	prestige_factor = 10
 	convoy_cost_multiplier = 0.75
-
-	consumption_tax_cost = 300 # was default
+	
+	consumption_tax_cost = 300	# was default
 }
 
 luxury_furniture = {
@@ -554,8 +554,8 @@ luxury_furniture = {
 	obsession_chance = 1.0
 	prestige_factor = 10
 	convoy_cost_multiplier = 0.75
-
-	consumption_tax_cost = 300 # was default
+	
+	consumption_tax_cost = 300	# was default
 }
 
 gold = {
@@ -576,6 +576,6 @@ fine_art = {
 	prestige_factor = 15
 	
 	traded_quantity = 2
-
-	consumption_tax_cost = 200 # was default
+	
+	consumption_tax_cost = 200	# was default
 }

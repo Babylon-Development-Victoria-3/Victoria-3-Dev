@@ -13,7 +13,7 @@
 			# output goods
 			goods_output_dye_add = 120
 		}
-
+		
 		level_scaled = {
 			# employment
 			building_employment_laborers_add = 1500

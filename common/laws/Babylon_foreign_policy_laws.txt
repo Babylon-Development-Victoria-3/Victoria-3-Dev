@@ -7,13 +7,13 @@
 		country_influence_add = -150
 		country_radicals_from_conquest_mult = 0.3
 	}
-
+	
 	on_activate = {
 		custom_tooltip = {
 			text = custom_babylon_law_expansionism_tip
-		}		
+		}
 	}
-
+	
 	unlocking_technologies = {
 	}
 	disallowing_laws = {
@@ -51,7 +51,7 @@ law_imperialism = {
 		country_max_declared_interests_mult = 0.1
 		country_influence_add = -250
 	}
-
+	
 	on_activate = {
 		custom_tooltip = {
 			text = custom_babylon_law_imperialism_tip
@@ -102,7 +102,7 @@ law_armed_neutrality = {
 	on_activate = {
 		custom_tooltip = {
 			text = custom_babylon_law_armed_neutrality_tip
-		}		
+		}
 	}
 	unlocking_technologies = {
 	}
@@ -133,12 +133,12 @@ law_anti_imperialist = {
 	modifier = {
 		country_influence_add = 400
 		country_max_declared_interests_add = 3
-		country_infamy_generation_mult = 0.15	
+		country_infamy_generation_mult = 0.15
 	}
 	on_activate = {
 		custom_tooltip = {
 			text = custom_babylon_law_pacifist_tip
-		}		
+		}
 	}
 	unlocking_technologies = {
 	}
@@ -182,7 +182,7 @@ law_pacifist = {
 	on_activate = {
 		custom_tooltip = {
 			text = custom_babylon_law_pacifist_tip
-		}		
+		}
 	}
 	unlocking_technologies = {
 	}
@@ -221,7 +221,7 @@ law_true_neutrality = {
 		custom_tooltip = {
 			text = custom_babylon_law_true_neutrality_tip
 			liberate_slaves = yes
-		}		
+		}
 	}
 	unlocking_technologies = {
 	}

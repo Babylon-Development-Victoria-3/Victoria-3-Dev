@@ -8,9 +8,9 @@
 		
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_land_based_taxation
-
+		
 		add_taxed_goods = g:wine
-
+		
 		set_government_wage_level = low
 		
 		ig:ig_landowners = {

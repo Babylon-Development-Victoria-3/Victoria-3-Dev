@@ -17,7 +17,7 @@
 					}
 					var:sea_region = {
 						add_to_temporary_list = sea_regions
-					}	
+					}
 				}
 			}
 			OR = {
@@ -37,10 +37,9 @@
 										babylon_target_is_puppet = yes
 									}
 								}
-
 								
 							}
-
+							
 							any_neighbouring_state = {
 								OR = {
 									AND = {
@@ -50,8 +49,8 @@
 									owner = {
 										babylon_target_is_puppet = yes
 									}
-								}						
-							}	
+								}
+							}
 						}
 					}
 				}
@@ -69,7 +68,7 @@
 								owner = {
 									babylon_target_is_puppet = yes
 								}
-							}					
+							}
 						}
 					}
 				}
@@ -133,8 +132,6 @@
 	# True neutral cannot do any diplo plays; this feature is located in the 'babylon_aggressive_diplomatic_plays_permitted_custom.txt' file
 }
 
-
-
 babylon_conquer_or_subjugation = {
 	OR = {
 		is_diplomatic_play_type = dp_conquer_state
@@ -143,7 +140,6 @@ babylon_conquer_or_subjugation = {
 		is_diplomatic_play_type = dp_take_treaty_port
 	}
 }
-
 
 babylon_target_is_puppet = {
 	AND = {
@@ -163,13 +159,12 @@ babylon_target_is_puppet = {
 	}
 }
 
-
 babylon_violate_sovereignty_war_check = {
 	OR = {
 		attacker_warleader = {
 			OR = {
 				has_strategic_land_adjacency = scope:target_country
-				any_scope_ally = {				
+				any_scope_ally = {
 					has_strategic_land_adjacency = scope:target_country
 				}
 			}
@@ -177,7 +172,7 @@ babylon_violate_sovereignty_war_check = {
 		defender_warleader = {
 			OR = {
 				has_strategic_land_adjacency = scope:target_country
-				any_scope_ally = {				
+				any_scope_ally = {
 					has_strategic_land_adjacency = scope:target_country
 				}
 			}

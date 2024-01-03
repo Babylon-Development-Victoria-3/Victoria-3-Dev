@@ -1,26 +1,26 @@
 ﻿MILITARY_FORMATIONS = {
-    c:BUL = {
+	c:BUL = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_balkans
 			name = "Eyaletno Domobranstvo"
-
+			
 			combat_unit = {
 				type = unit_type:combat_unit_type_line_infantry
 				state_region = s:STATE_BULGARIA
 				count = 10
 			}
 		}
-    }
+	}
 }
 
 MILITARY_FORMATIONS = {
-    c:KUR = {
+	c:KUR = {
 		create_military_formation = {
 			type = army
 			hq_region = sr:region_arabic
 			name = "Kurdish Tribes"
-
+			
 			combat_unit = {
 				type = unit_type:combat_unit_type_irregular_infantry
 				state_region = s:STATE_MOSUL
@@ -37,5 +37,5 @@ MILITARY_FORMATIONS = {
 				count = 2
 			}
 		}
-    }
+	}
 }

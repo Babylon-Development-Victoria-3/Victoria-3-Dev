@@ -11,7 +11,7 @@ law_no_womens_rights = {
 	on_enact = {
 		recalculate_pop_ig_support = yes
 	}
-
+	
 	modifier = {
 		state_birth_rate_mult = 0.05
 	}
@@ -23,23 +23,23 @@ law_no_womens_rights = {
 	pop_support = {
 		value = 0
 	}
-
+	
 	ai_will_do = {
 		literacy_rate < 0.4
 		exists = ruler
-		ruler = { 
-			has_ideology = ideology:ideology_traditionalist 
+		ruler = {
+			has_ideology = ideology:ideology_traditionalist
 		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -55,7 +55,7 @@ law_women_own_property = {
 	on_enact = {
 		recalculate_pop_ig_support = yes
 	}
-
+	
 	modifier = {
 		state_working_adult_ratio_add = 0.05
 	}
@@ -64,7 +64,7 @@ law_women_own_property = {
 		law_no_womens_rights
 		law_women_in_the_workplace
 	}
-
+	
 	pop_support = {
 		value = 0
 		add = {
@@ -104,21 +104,21 @@ law_women_own_property = {
 			has_law = law_type:law_no_womens_rights
 			AND = {
 				exists = ruler
-				ruler = { 
-					has_ideology = ideology:ideology_traditionalist 
-				}		
+				ruler = {
+					has_ideology = ideology:ideology_traditionalist
+				}
 			}
 		}
-	}	
-
-	ai_enact_weight_modifier = { #Petitions
+	}
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -138,7 +138,7 @@ law_women_in_the_workplace = {
 	on_enact = {
 		recalculate_pop_ig_support = yes
 	}
-
+	
 	modifier = {
 		state_working_adult_ratio_add = 0.1
 		state_birth_rate_mult = -0.05
@@ -148,7 +148,7 @@ law_women_in_the_workplace = {
 		law_women_own_property
 		law_womens_suffrage
 	}
-
+	
 	pop_support = {
 		value = 0
 		add = {
@@ -198,21 +198,21 @@ law_women_in_the_workplace = {
 			has_law = law_type:law_women_own_property
 			AND = {
 				exists = ruler
-				ruler = { 
-					has_ideology = ideology:ideology_traditionalist 
-				}		
+				ruler = {
+					has_ideology = ideology:ideology_traditionalist
+				}
 			}
 		}
-	}	
-
-	ai_enact_weight_modifier = { #Petitions
+	}
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -228,7 +228,7 @@ law_womens_suffrage = {
 	unlocking_technologies = {
 		feminism
 	}
-
+	
 	unlocking_laws = {
 		law_census_voting
 		law_landed_voting
@@ -241,7 +241,7 @@ law_womens_suffrage = {
 	on_enact = {
 		recalculate_pop_ig_support = yes
 	}
-
+	
 	modifier = {
 		state_working_adult_ratio_add = 0.15
 		state_birth_rate_mult = -0.05
@@ -251,7 +251,7 @@ law_womens_suffrage = {
 	possible_political_movements = {
 		law_women_own_property
 	}
-
+	
 	pop_support = {
 		value = 0.05
 		add = {
@@ -275,15 +275,15 @@ law_womens_suffrage = {
 			}
 		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}

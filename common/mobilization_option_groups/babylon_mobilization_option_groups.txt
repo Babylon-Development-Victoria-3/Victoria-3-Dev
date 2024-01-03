@@ -1,4 +1,4 @@
 ﻿armaments = {
-    icon = "gfx/interface/icons/babylon_mobilization_options/small_arms_caplocks.dds"
-    weight = 5
+	icon = "gfx/interface/icons/babylon_mobilization_options/small_arms_caplocks.dds"
+	weight = 5
 }

@@ -485,7 +485,7 @@ babylon_spawn_country_with_color = {
 			religion = scope:new_religion_scope
 			capital = scope:dynamic_country_capital
 			color = { 0 0 5 }
-
+			
 			on_created = {
 				trigger_event = {
 					id = babylon_political_discord.2
@@ -494,7 +494,7 @@ babylon_spawn_country_with_color = {
 					id = babylon_political_discord.4
 					days = 3
 				}
-			} 
+			}
 		}
 	}
 	else_if = {
@@ -505,7 +505,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 20 0 90 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -528,7 +528,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 230 80 30 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -551,7 +551,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 154 90 35 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -574,7 +574,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 1 95 55 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -597,7 +597,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 23 100 70 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -620,7 +620,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 44 83 85 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -643,7 +643,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 308 89 39 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -666,7 +666,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 30 0 20 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -689,7 +689,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 30 40 90 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -712,7 +712,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 26 70 25 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -735,7 +735,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 187 83 146 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -758,7 +758,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 34 95 80 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -781,7 +781,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 0 0 45 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -804,7 +804,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 20 65 45 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -827,7 +827,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 215 80 45 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -850,7 +850,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 160 2 80 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -873,7 +873,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 177 97 41 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -896,7 +896,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 200 50 60 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -919,7 +919,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 154 90 50 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -942,7 +942,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 1 90 65 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -965,7 +965,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 26 65 50 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -988,7 +988,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 0 0 15 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -1011,7 +1011,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 44 75 95 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -1034,7 +1034,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 40 85 75 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -1057,7 +1057,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 1 95 35 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -1080,7 +1080,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 154 90 25 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -1103,7 +1103,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 0 45 90 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -1126,7 +1126,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 180 5 70 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope
@@ -1146,7 +1146,7 @@ babylon_spawn_country_with_color = {
 			origin = root
 			capital = scope:dynamic_country_capital
 			color = { 0 0 5 }
-
+			
 			tier = principality
 			culture = scope:new_culture_scope
 			religion = scope:new_religion_scope

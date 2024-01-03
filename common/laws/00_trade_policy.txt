@@ -13,7 +13,7 @@ law_mercantilism = {
 		country_trade_route_competitiveness_mult = 0.05
 		country_trade_route_quantity_mult = 0.1
 	}
-
+	
 	unlocking_technologies = {
 		international_trade
 	}
@@ -21,7 +21,7 @@ law_mercantilism = {
 	tariff_modifier_no_priority = {
 		tariff_import_add = 0.15
 		tariff_export_add = 0.05
-	}	
+	}
 	
 	tariff_modifier_export_priority = {
 		tariff_import_add = 0.45
@@ -30,11 +30,11 @@ law_mercantilism = {
 	tariff_modifier_import_priority = {
 		tariff_export_add = 0.15
 	}
-
+	
 	possible_political_movements = {
 		law_protectionism
 		law_free_trade
-	}	
+	}
 	
 	pop_support = {
 		value = 0
@@ -45,17 +45,17 @@ law_mercantilism = {
 		NOR = {
 			has_law = law_type:law_protectionism
 			has_law = law_type:law_free_trade
-		}	
+		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -72,7 +72,7 @@ law_protectionism = {
 	modifier = {
 		country_trade_route_competitiveness_mult = -0.05
 	}
-
+	
 	unlocking_technologies = {
 		stock_exchange
 	}
@@ -80,7 +80,7 @@ law_protectionism = {
 	tariff_modifier_no_priority = {
 		tariff_export_add = 0.10
 		tariff_import_add = 0.10
-	}	
+	}
 	
 	tariff_modifier_export_priority = {
 		tariff_import_add = 0.30
@@ -88,24 +88,24 @@ law_protectionism = {
 	
 	tariff_modifier_import_priority = {
 		tariff_export_add = 0.30
-	}	
+	}
 	
 	possible_political_movements = {
 		law_free_trade
-	}	
-
+	}
+	
 	pop_support = {
 		value = 0
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -121,7 +121,7 @@ law_free_trade = {
 	
 	disallowing_laws = {
 		law_command_economy
-	}	
+	}
 	
 	unlocking_technologies = {
 		stock_exchange
@@ -131,7 +131,7 @@ law_free_trade = {
 		if = {
 			limit = { is_banning_goods = g:opium }
 			remove_banned_goods = g:opium
-		}	
+		}
 		if = {
 			limit = { is_banning_goods = g:liquor }
 			remove_banned_goods = g:liquor
@@ -143,25 +143,25 @@ law_free_trade = {
 		country_trade_route_quantity_mult = 0.6
 		country_trade_route_cost_mult = -0.5
 		country_tech_spread_mult = 0.05
-
+		
 	}
 	
 	possible_political_movements = {
 		law_protectionism
-	}	
-
+	}
+	
 	pop_support = {
 		value = 0
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}
@@ -177,7 +177,7 @@ law_isolationism = {
 	
 	disallowing_laws = {
 		law_laissez_faire
-	}		
+	}
 	
 	modifier = {
 		country_authority_mult = 0.5
@@ -192,7 +192,7 @@ law_isolationism = {
 	possible_political_movements = {
 		law_protectionism
 		law_free_trade
-	}	
+	}
 	
 	pop_support = {
 		value = 0
@@ -206,15 +206,15 @@ law_isolationism = {
 			}
 		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
-			limit = { 
+			limit = {
 				has_journal_entry = je_government_petition
 				has_variable = desired_law_var
-                scope:law = var:desired_law_var
+				scope:law = var:desired_law_var
 			}
 			add = 750
 		}

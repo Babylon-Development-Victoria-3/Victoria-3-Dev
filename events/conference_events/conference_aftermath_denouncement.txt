@@ -23,7 +23,7 @@ conference_aftermath_denouncement.1 = {
 		default_option = yes
 		trigger = {
 			is_congress_supporter = yes
-            conference_sanctions_severity != 0
+			conference_sanctions_severity != 0
 		}
 		if = {
 			# lost the power struggle
@@ -95,7 +95,7 @@ conference_aftermath_denouncement.1 = {
 		default_option = yes
 		trigger = {
 			is_congress_abstainer = yes
-            conference_sanctions_severity != 0
+			conference_sanctions_severity != 0
 		}
 		name = conference_aftermath_denouncement.1.c
 		if = {
@@ -113,7 +113,7 @@ conference_aftermath_denouncement.1 = {
 	option = {
 		trigger = {
 			is_congress_abstainer = yes
-            conference_sanctions_severity != 0
+			conference_sanctions_severity != 0
 		}
 		name = conference_aftermath_denouncement.1.d
 		# Do the opposite of the resolution
@@ -145,7 +145,7 @@ conference_aftermath_denouncement.1 = {
 		default_option = yes
 		trigger = {
 			is_congress_opposer = yes
-            conference_sanctions_severity != 0
+			conference_sanctions_severity != 0
 		}
 		if = {
 			# won the power struggle
@@ -222,7 +222,7 @@ conference_aftermath_denouncement.1 = {
 		default_option = yes
 		trigger = {
 			is_congress_observer = yes
-            conference_sanctions_severity != 0
+			conference_sanctions_severity != 0
 		}
 		name = conference_aftermath_denouncement.1.g
 		if = {
@@ -240,7 +240,7 @@ conference_aftermath_denouncement.1 = {
 	option = {
 		trigger = {
 			is_congress_observer = yes
-            conference_sanctions_severity != 0
+			conference_sanctions_severity != 0
 		}
 		name = conference_aftermath_denouncement.1.h
 		if = {
@@ -270,7 +270,7 @@ conference_aftermath_denouncement.1 = {
 		default_option = yes
 		trigger = {
 			is_congress_attendee = no
-            conference_sanctions_severity != 0
+			conference_sanctions_severity != 0
 		}
 		name = conference_aftermath_denouncement.1.i
 		if = {
@@ -288,7 +288,7 @@ conference_aftermath_denouncement.1 = {
 	option = {
 		trigger = {
 			is_congress_attendee = no
-            conference_sanctions_severity != 0
+			conference_sanctions_severity != 0
 		}
 		name = conference_aftermath_denouncement.1.j
 		if = {
@@ -308,15 +308,15 @@ conference_aftermath_denouncement.1 = {
 		ai_chance = {
 			base = 0
 		}
-    }
+	}
 	# Option for no verdicts
-    option = {
-        trigger = {
-            conference_sanctions_severity = 0
-        }
-        default_option = yes
+	option = {
+		trigger = {
+			conference_sanctions_severity = 0
+		}
+		default_option = yes
 		name = conference_aftermath_denouncement.1.k
-    }
+	}
 }
 
 conference_aftermath_denouncement.2 = {

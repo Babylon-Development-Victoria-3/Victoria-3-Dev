@@ -8,7 +8,7 @@
 		NOT = {
 			has_law = law_type:law_true_neutrality
 		}
-
+		
 		NOR = {
 			is_country_type = decentralized
 			has_law = law_type:law_isolationism
@@ -133,9 +133,9 @@
 		is_customs_union = yes
 		can_be_used_in_sway_offers = yes
 		sway_maneuvers_cost = 10
-		relations_progress_per_day = 1		# At 100, +1 relations
+		relations_progress_per_day = 1	# At 100, +1 relations
 		relations_improvement_max = 80
-		subject_type = subject_type_customs_union		# A customs union is technically a type of subject, though it isn't presented this way in-game
+		subject_type = subject_type_customs_union	# A customs union is technically a type of subject, though it isn't presented this way in-game
 		weekly_effect = {
 			scope:target_country = {
 				add_modifier = {
@@ -158,7 +158,7 @@
 			}
 		}
 		is_about_to_auto_break = {
-			scope:target_country.relations:root < 23			# this is: cordial + 3
+			scope:target_country.relations:root < 23	# this is: cordial + 3
 		}
 		should_auto_break = {
 			custom_tooltip = {
@@ -715,7 +715,7 @@ join_customs_union = {
 		NOT = {
 			is_country_type = decentralized
 		}
-
+		
 		scope:target_country = {
 			NOR = {
 				has_law = law_type:law_isolationism
@@ -853,7 +853,7 @@ change_customs_union = {
 		NOT = {
 			is_country_type = decentralized
 		}
-
+		
 		is_junior_in_customs_union = no
 		scope:target_country = {
 			NOR = {

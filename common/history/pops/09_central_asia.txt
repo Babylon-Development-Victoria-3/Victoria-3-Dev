@@ -275,7 +275,7 @@
 				size = 7996
 			}
 		}
-
+		
 		region_state:KZH = {
 			create_pop = {
 				culture = kazak
@@ -286,7 +286,7 @@
 				size = 3500
 			}
 		}
-
+		
 		region_state:OZH = {
 			create_pop = {
 				culture = russian
@@ -769,7 +769,7 @@
 				size = 1820000
 			}
 			create_pop = {
-				culture = han # nanfaren
+				culture = han	# nanfaren
 				religion = animist
 				size = 100000
 			}
@@ -786,7 +786,7 @@
 				size = 824000
 			}
 			create_pop = {
-				culture = han # nanfaren
+				culture = han	# nanfaren
 				religion = animist
 				size = 42000
 			}

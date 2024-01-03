@@ -20,7 +20,7 @@ law_traditionalism = {
 		state_bureaucracy_population_base_cost_factor_mult = -0.25
 		state_tax_capacity_mult = -0.25
 		country_private_construction_allocation_mult = 0.25
-
+		
 		state_market_access_price_impact = -0.15
 		
 		country_subsidies_bg_infrastructure = yes
@@ -37,7 +37,7 @@ law_traditionalism = {
 	pop_support = {
 		value = 0
 	}
-
+	
 	build_from_investment_pool = {
 		bg_agriculture
 		bg_plantations
@@ -120,8 +120,8 @@ law_interventionism = {
 			}
 		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		
 		if = {
@@ -210,7 +210,7 @@ law_agrarianism = {
 			}
 		}
 	}
-		
+	
 	ai_will_do = {
 		OR = {
 			has_law = law_type:law_traditionalism
@@ -341,7 +341,7 @@ law_industry_banned = {
 			}
 		}
 	}
-
+	
 	ai_will_do = {
 		always = no
 	}
@@ -423,8 +423,8 @@ law_laissez_faire = {
 			}
 		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		if = {
 			limit = {
@@ -494,8 +494,8 @@ law_cooperative_ownership = {
 			}
 		}
 	}
-
-	ai_enact_weight_modifier = { #Petitions
+	
+	ai_enact_weight_modifier = {	#Petitions
 		value = 0
 		if = {
 			limit = {
@@ -507,7 +507,7 @@ law_cooperative_ownership = {
 		}
 		
 		if = {
-			limit = { 
+			limit = {
 				has_law = law_type:law_council_republic
 			}
 			add = 250
@@ -555,7 +555,7 @@ law_command_economy = {
 	pop_support = {
 		value = 0
 		add = {
-			desc = "POP_BUREAUCRATS"			
+			desc = "POP_BUREAUCRATS"
 			if = {
 				limit = {
 					is_pop_type = bureaucrats
@@ -573,9 +573,9 @@ law_command_economy = {
 				ruler ?= {
 					OR = {
 						has_ideology = ideology:ideology_vanguardist
-						has_ideology = ideology:ideology_communist						
+						has_ideology = ideology:ideology_communist
 					}
-				}			
+				}
 			}
 		}
 	}
@@ -592,14 +592,14 @@ law_command_economy = {
 		}
 		
 		if = {
-			limit = { 
+			limit = {
 				has_law = law_type:law_council_republic
 			}
 			add = 250
 		}
 		
 		if = {
-			limit = { 
+			limit = {
 				has_law = law_type:law_technocracy
 			}
 			add = 100

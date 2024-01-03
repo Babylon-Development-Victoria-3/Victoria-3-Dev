@@ -52,7 +52,7 @@ on_babylon_diplo_play_backdown = {
 				set_variable = {
 					name = babylon_new_customs_union_applicant_denied
 					value = 1
-					days = 1826					#5 years
+					days = 1826	#5 years
 				}
 			}
 			#Removes the humiliation since end_play = yes doesnt work (in current 1.2.1 beta?)
@@ -120,7 +120,7 @@ on_babylon_diplo_play_backdown = {
 					set_variable = {
 						name = babylon_new_customs_union_applicant_denied
 						value = 1
-						days = 1826						#5 years
+						days = 1826	#5 years
 					}
 				}
 			}

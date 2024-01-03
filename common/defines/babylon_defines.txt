@@ -1,11 +1,11 @@
 ﻿NGame = {
-	MAX_NUMBER_OF_AUTOSAVES = 20 	# was 5, The game will only keep the MAX_NUMBER_OF_AUTOSAVES latest autosaves.
+	MAX_NUMBER_OF_AUTOSAVES = 20	# was 5, The game will only keep the MAX_NUMBER_OF_AUTOSAVES latest autosaves.
 }
 
 NMilitary = {
-	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MIN = 0.025 	# The minimum percentage of manpower a unit can lose each week due to attrition
-	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MAX = 0.075 	# The maximum percentage of manpower a unit can lose each week due to attrition
-	BATTLE_RAW_MANPOWER_INFLICTED_CASUALTY_RATIO = 0.45		#0.5 applied to the number of casualties caused by raw number of troops, ie without considering Offense/Defense - increasing this makes CE less important and battles more lethal
+	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MIN = 0.025	# The minimum percentage of manpower a unit can lose each week due to attrition
+	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MAX = 0.075	# The maximum percentage of manpower a unit can lose each week due to attrition
+	BATTLE_RAW_MANPOWER_INFLICTED_CASUALTY_RATIO = 0.45	#0.5 applied to the number of casualties caused by raw number of troops, ie without considering Offense/Defense - increasing this makes CE less important and battles more lethal
 	BATTLE_COMBAT_EFFICIENCY_INFLICTED_CASUALTY_RATIO = 1.55	#1.5 applied to the number of casualties caused by troops with Offense/Defense also factored in - increasing this makes CE more important and battles more lethal
 	INTERCEPTION_DELAY_BASE_DAYS = 3	# was 5     # atleast this many days between each admiral interception attempt
 	INTERCEPTION_DELAY_MAX_RANDOM_DAYS_FACTOR = 7	# was 10    # up to this many extra days between each admiral interception attempt
@@ -14,18 +14,18 @@ NMilitary = {
 
 NWar = {
 	DEVASTATION_MAX = 100.0
-	DEVASTATION_INCREASE_RATE = 0.1 # Per day, scales with level of occupation
-	DEVASTATION_DECAY_RATE = -0.08 #-0.1 Per day, when there are no occupations
-	DEVASTATION_FROM_BATTLES = 0.15 # For each battle
-
-	AUTO_CAPITULATE_WAR_SUPPORT = -100 # When war support is this low, the country will auto capitulate
-	DAYS_BETWEEN_WAR_EXHAUSTION = 7 # Every this many days war support will be reduced by the war exhaustion formula
-	WAR_EXHAUSTION_BASE = 0.05 #0.25
-	WAR_EXHAUSTION_KIA_FACTOR = 2.0 #20 # Scaled by casualties compared to total manpower
-	WAR_EXHAUSTION_KIA_BASE_MULTIPLIER = 0.04 #0.1	# War Exhaustion from casualties is always multiplied by at least this
-	WAR_EXHAUSTION_KIA_BATTLES_LOST_MULTIPLIER = 0.4 #0.25	# At 100% of battles lost by our side, War Exhaustion from casualties is further multiplied by this 
-	WAR_EXHAUSTION_TURMOIL_FACTOR = 3 #2 At 100% turmoil
-	WAR_EXHAUSTION_CONTESTED_ENEMY_WARGOALS = 2.5 #1
+	DEVASTATION_INCREASE_RATE = 0.1	# Per day, scales with level of occupation
+	DEVASTATION_DECAY_RATE = -0.08	#-0.1 Per day, when there are no occupations
+	DEVASTATION_FROM_BATTLES = 0.15	# For each battle
+	
+	AUTO_CAPITULATE_WAR_SUPPORT = -100	# When war support is this low, the country will auto capitulate
+	DAYS_BETWEEN_WAR_EXHAUSTION = 7	# Every this many days war support will be reduced by the war exhaustion formula
+	WAR_EXHAUSTION_BASE = 0.05	#0.25
+	WAR_EXHAUSTION_KIA_FACTOR = 2.0	#20 # Scaled by casualties compared to total manpower
+	WAR_EXHAUSTION_KIA_BASE_MULTIPLIER = 0.04	#0.1	# War Exhaustion from casualties is always multiplied by at least this
+	WAR_EXHAUSTION_KIA_BATTLES_LOST_MULTIPLIER = 0.4	#0.25	# At 100% of battles lost by our side, War Exhaustion from casualties is further multiplied by this 
+	WAR_EXHAUSTION_TURMOIL_FACTOR = 3	#2 At 100% turmoil
+	WAR_EXHAUSTION_CONTESTED_ENEMY_WARGOALS = 2.5	#1
 	OCCUPATION_STATE_BASE_WEIGHT = 1
 	OCCUPATION_STATE_POP_WEIGHT = 1
 	OCCUPATION_STATE_INCORPORATED_WEIGHT = 10
@@ -36,7 +36,7 @@ NWar = {
 	STATE_CONQUEST_DEFAULT_RADICALIZATION = 0.4
 	STATE_CONQUEST_DEFAULT_DEMILITARIZATION = 0.75
 	NUM_PROVINCES_FOR_ADVANCEMENT_SELECTION = 5	# After having computed weights for possible advancement provinces using front_battle_province_weight, filter out all but the X top weighted provinces
-	OCCUPATION_STATE_DEFENSIVE_BATTLE_VICTORY_SCORE = 66 #100 How many occupation "points" each country receives after winning a defensive battle
+	OCCUPATION_STATE_DEFENSIVE_BATTLE_VICTORY_SCORE = 66	#100 How many occupation "points" each country receives after winning a defensive battle
 	LOCK_PROVINCE_CAPTURE_TO_SINGLE_STATE = no	# If `yes`, provinces will only be captured on the same state as the battle province state.
 	PREFER_BATTLES_IN_UNIQUE_STATES = no	# If `yes`, will avoid creating ANY battles in the same state UNLESS there's no other option.
 }
@@ -63,10 +63,10 @@ NPops = {
 	MIGRATION_PULL_MULT_FROM_CULTURE_TARGET_ADJACENCY = 10	#5.0	# Migration pull multiplied by this from target state being next to a cultural migration target
 	MIGRATION_PULL_MULT_FROM_NO_DISCRIMINATION = 1.3	#1		# Migration pull multiplier increased by this if pop is moving from discrimination to no discrimination (not applied to mass migration targets)
 	MIGRATION_PULL_MULT_FROM_HOMELANDS = 0.6	#.5				# Migration pull multiplier increased by this if pop is moving to cultural homelands (not applied to mass migration targets)
-	
+
 	# General factors for how many pops will migrate
-	MIGRATION_PULL_HIGH_THRESHOLD = 1.25			#	State must have a migration pull of at least market average * this to get economic immigration
-	MIGRATION_PULL_LOW_THRESHOLD = 0.75				# State must have a migration pull of less or equal than market average * this to get full amount of emigration
+	MIGRATION_PULL_HIGH_THRESHOLD = 1.25	#	State must have a migration pull of at least market average * this to get economic immigration
+	MIGRATION_PULL_LOW_THRESHOLD = 0.75	# State must have a migration pull of less or equal than market average * this to get full amount of emigration
 	ECONOMIC_MIGRATION_BASE = 0.02	# Base amount of a pop that wants to move for economic reasons
 	ECONOMIC_MIGRATION_FROM_SOL_DIFFERENCE = 0.01	# Each point of difference of pop SoL to the market's average SoL makes this fraction of the pop want to economically migrate (in %)
 	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 150000	#100000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
@@ -84,7 +84,7 @@ NPops = {
 	MIGRATION_MAX_PER_STATE_CULTURAL_EMIGRATION_MULT = 5	#5.5		# Weekly emigration caps are multiplied by this amount by this for cultural-type migration (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
 	MIGRATION_MAX_PER_STATE_CULTURAL_IMMIGRATION_MULT = 11	#12.5		# Weekly immigration caps are multiplied by this amount by this for cultural-type migration (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
 	MIGRATION_AVERAGE_ATTRACTION_EMIGRATION_MULT = 0.20	# States with an average migration attraction gets this multiplier to emigrants
-	
+
 	# Factors for creating mass migration targets
 	MASS_MIGRATION_ORIGIN_MIN_TURMOIL = 0.21	#0.1975			# Must have at least this much turmoil in cultural homelands to create a migration target
 	MASS_MIGRATION_ORIGIN_MIN_EMIGRANTS = 90000	# 100000 A country must have at least this many possible migrants to trigger a mass migration
@@ -103,78 +103,78 @@ NPops = {
 }
 
 NPolitics = {
-	BASE_IG_APPROVAL = 0				# Baseline IG approval
-	MIN_IG_APPROVAL = -100				#20 Minimum IG approval
-	MAX_IG_APPROVAL = 100				# 20 Maximum IG approval
-	MIN_IG_APPROVAL_FROM_LAWS = -8		# -5 IG cannot have approval lower than this as a total from laws 'on the book'
-	MAX_IG_APPROVAL_FROM_LAWS = 8		# 5 IG cannot have approval higher than this as a total from laws 'on the book'
-	IG_APPROVAL_FROM_LOYALISTS = 15		# If 100% of the political strength of the IG is loyalist, change approval by this amount
-	IG_APPROVAL_FROM_RADICALS = -15		# If 100% of the political strength of the IG is radical, change approval by this amount
-	IG_LAW_DESIRE_RADICAL_CHANGE_THRESHOLD = 2 # A difference in positions this or higher is considered radical
-	IG_LAW_DESIRE_EXTREME_CHANGE_THRESHOLD = 3 # A difference in positions this or higher is considered extreme
-	IG_APPROVAL_FROM_LAW = 1 		# IG approval/disapproval for laws that are for/against their ideologies
-	IG_APPROVAL_FROM_LAW_STRONG_STANCE = 2 		# IG approval/disapproval for laws that are strongly for/against their ideologies
-	IG_APPROVAL_FROM_LAW_CHANGE = 5 		# IG approval/disapproval for changing to another law
-	IG_APPROVAL_FROM_RADICAL_LAW_CHANGE = 10 		# IG approval/disapproval for changing to another law, if the change is a major one
-	IG_APPROVAL_FROM_EXTREME_LAW_CHANGE = 20 		# IG approval/disapproval for changing to another law, if the change is extreme
-	IG_IN_GOVERNMENT_APPROVAL = 0		# Added if IG is in government
-	IG_IN_OPPOSITION_APPROVAL = 0		# Added if IG is in opposition (and not powerful)
-	IG_POWERFUL_IN_OPPOSITION_APPROVAL = -1 # Added if powerful IG in opposition
-	STARTUP_MIN_LEGITIMACY_IG_BARRIER = 40 # Min legitimacy when on startup we allow to remove IGs from goverment that decrease legitimacy
-	APPROVAL_THRESHOLD_ANGRY = -12		# -10 At this or below approval, IG is considered angry
-	APPROVAL_THRESHOLD_UNHAPPY = -5		# At this or below approval, IG is considered unhappy
-	APPROVAL_THRESHOLD_HAPPY = 5		# At this or above approval, IG is considered happy
-	APPROVAL_THRESHOLD_LOYAL = 12		# 10 At this or above approval, IG is considered loyal
-	CHANGED_LAW_APPROVAL_MONTHS = 60 # How many months does the approval/disapproval for a law change linger after said law chain
-
-	SECESSION_WEEKLY_BASE_CHANCE = 0.002		# 0.001 weekly base chance for culture to start secession movement
+	BASE_IG_APPROVAL = 0	# Baseline IG approval
+	MIN_IG_APPROVAL = -100	#20 Minimum IG approval
+	MAX_IG_APPROVAL = 100	# 20 Maximum IG approval
+	MIN_IG_APPROVAL_FROM_LAWS = -8	# -5 IG cannot have approval lower than this as a total from laws 'on the book'
+	MAX_IG_APPROVAL_FROM_LAWS = 8	# 5 IG cannot have approval higher than this as a total from laws 'on the book'
+	IG_APPROVAL_FROM_LOYALISTS = 15	# If 100% of the political strength of the IG is loyalist, change approval by this amount
+	IG_APPROVAL_FROM_RADICALS = -15	# If 100% of the political strength of the IG is radical, change approval by this amount
+	IG_LAW_DESIRE_RADICAL_CHANGE_THRESHOLD = 2	# A difference in positions this or higher is considered radical
+	IG_LAW_DESIRE_EXTREME_CHANGE_THRESHOLD = 3	# A difference in positions this or higher is considered extreme
+	IG_APPROVAL_FROM_LAW = 1	# IG approval/disapproval for laws that are for/against their ideologies
+	IG_APPROVAL_FROM_LAW_STRONG_STANCE = 2	# IG approval/disapproval for laws that are strongly for/against their ideologies
+	IG_APPROVAL_FROM_LAW_CHANGE = 5	# IG approval/disapproval for changing to another law
+	IG_APPROVAL_FROM_RADICAL_LAW_CHANGE = 10	# IG approval/disapproval for changing to another law, if the change is a major one
+	IG_APPROVAL_FROM_EXTREME_LAW_CHANGE = 20	# IG approval/disapproval for changing to another law, if the change is extreme
+	IG_IN_GOVERNMENT_APPROVAL = 0	# Added if IG is in government
+	IG_IN_OPPOSITION_APPROVAL = 0	# Added if IG is in opposition (and not powerful)
+	IG_POWERFUL_IN_OPPOSITION_APPROVAL = -1	# Added if powerful IG in opposition
+	STARTUP_MIN_LEGITIMACY_IG_BARRIER = 40	# Min legitimacy when on startup we allow to remove IGs from goverment that decrease legitimacy
+	APPROVAL_THRESHOLD_ANGRY = -12	# -10 At this or below approval, IG is considered angry
+	APPROVAL_THRESHOLD_UNHAPPY = -5	# At this or below approval, IG is considered unhappy
+	APPROVAL_THRESHOLD_HAPPY = 5	# At this or above approval, IG is considered happy
+	APPROVAL_THRESHOLD_LOYAL = 12	# 10 At this or above approval, IG is considered loyal
+	CHANGED_LAW_APPROVAL_MONTHS = 60	# How many months does the approval/disapproval for a law change linger after said law chain
+	
+	SECESSION_WEEKLY_BASE_CHANCE = 0.002	# 0.001 weekly base chance for culture to start secession movement
 }
 
 NEconomy = {
 	PRICE_RANGE = 0.99	#0.75					# min price of a good is base * (1 - PRICE_RANGE), Max price is base * (1 + PRICE_RANGE), PRICE_RANGE is locked to [0-1]
-
-	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.5		# If supply / demand is lower than this, start applying output penalties, by default this should be ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
-	GOODS_SHORTAGE_PENALTY_INCREASE_SPEED = 0.01  	# Goods shortage penalty increases by this fraction of the target each day
-	GOODS_SHORTAGE_PENALTY_DECREASE_SPEED = 0.01  	# Goods shortage penalty goes down by this fraction of GOODS_SHORTAGE_PENALTY_MAX each day
-	GOODS_SHORTAGE_PENALTY_MIN = 0.05			# Goods shortage penalty can't be lower than this if there is any shortage
+	
+	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.5	# If supply / demand is lower than this, start applying output penalties, by default this should be ( 1 / BUY_SELL_DIFF_AT_MAX_FACTOR )
+	GOODS_SHORTAGE_PENALTY_INCREASE_SPEED = 0.01	# Goods shortage penalty increases by this fraction of the target each day
+	GOODS_SHORTAGE_PENALTY_DECREASE_SPEED = 0.01	# Goods shortage penalty goes down by this fraction of GOODS_SHORTAGE_PENALTY_MAX each day
+	GOODS_SHORTAGE_PENALTY_MIN = 0.05	# Goods shortage penalty can't be lower than this if there is any shortage
 	GOODS_SHORTAGE_PENALTY_MAX = 0.75	#0.5	# Goods shortage penalty can't be higher than this
-
-	SLAVE_BASKET_DEFAULT = 6 #8					# Default level of consumer goods that a building will buy for its slaves
-	SLAVE_BASKET_MIN = 1						# Min level of consumer goods that a building will buy for its slaves (the highest of this and SLAVE_BASKET_SCALED_MIN is used)
-	SLAVE_BASKET_MAX = 12						# Max level of consumer goods that a building will buy for its slaves (the lowest of this and SLAVE_BASKET_SCALED_MAX is used)
-	SLAVE_BASKET_SCALED_MIN = 0.3 #0.5			# Multiplied by lowest non-slave wealth in the building 
+	
+	SLAVE_BASKET_DEFAULT = 6	#8					# Default level of consumer goods that a building will buy for its slaves
+	SLAVE_BASKET_MIN = 1	# Min level of consumer goods that a building will buy for its slaves (the highest of this and SLAVE_BASKET_SCALED_MIN is used)
+	SLAVE_BASKET_MAX = 12	# Max level of consumer goods that a building will buy for its slaves (the lowest of this and SLAVE_BASKET_SCALED_MAX is used)
+	SLAVE_BASKET_SCALED_MIN = 0.3	#0.5			# Multiplied by lowest non-slave wealth in the building 
 	SLAVE_BASKET_SCALED_MAX = 0.8	#1				# Multiplied by lowest non-slave wealth in the building
-
+	
 	SLAVE_TRADE_TURMOIL_WEIGHT = 30	#25			# Weight of slave turmoil in slave import marker selection
-	BUILDING_RAISE_WAGES_DISCRIMINATION_FACTOR = 0.5 #0.66 # Profitable buildings only care to raise wages for discriminated pops if their wealth to expected SoL ratio is less than this
+	BUILDING_RAISE_WAGES_DISCRIMINATION_FACTOR = 0.5	#0.66 # Profitable buildings only care to raise wages for discriminated pops if their wealth to expected SoL ratio is less than this
 }
 
 NDiplomacy = {
-	DIPLOMATIC_PACT_COST_DEFAULT = 0					# The default maintenance in Diplomatic Capital for a pact
-	DIPLOMATIC_PACT_COST_MULT_FROM_INFAMOUS = 0.10		# 0.25 Maintenance cost of a pact is increased by this when at Infamous level of infamy
-	DIPLOMATIC_PACT_COST_MULT_FROM_NOTORIOUS = 0.25		# 0.50 Maintenance cost of a pact is increased by this when at Notorious level of infamy
-	DIPLOMATIC_PACT_COST_MULT_FROM_PARIAH = 0.50		# 1.00 Maintenance cost of a pact is increased by this when at Pariah level of infamy
-
-	WAR_GOAL_INFAMY_RELATIONS_TARGET_IMPACT = -0.75 # -1.00 Each point of infamy generated by an incident also has this impact on relations with the target
-	WAR_GOAL_INFAMY_RELATIONS_INTEREST_IMPACT = -0.3 # -0.50 Each point of infamy generated by an incident also has this impact on relations with countries that have an interest in the target 
-	WAR_GOAL_INFAMY_CONQUER_STATE = 4.0 #Vanilla 5.0
-	WAR_GOAL_INFAMY_RETURN_STATE = 1.5 #Vanilla 2.0
-	WAR_GOAL_INFAMY_TAKE_TREATY_PORT = 1.25 #Vanilla 2.0
+	DIPLOMATIC_PACT_COST_DEFAULT = 0	# The default maintenance in Diplomatic Capital for a pact
+	DIPLOMATIC_PACT_COST_MULT_FROM_INFAMOUS = 0.10	# 0.25 Maintenance cost of a pact is increased by this when at Infamous level of infamy
+	DIPLOMATIC_PACT_COST_MULT_FROM_NOTORIOUS = 0.25	# 0.50 Maintenance cost of a pact is increased by this when at Notorious level of infamy
+	DIPLOMATIC_PACT_COST_MULT_FROM_PARIAH = 0.50	# 1.00 Maintenance cost of a pact is increased by this when at Pariah level of infamy
+	
+	WAR_GOAL_INFAMY_RELATIONS_TARGET_IMPACT = -0.75	# -1.00 Each point of infamy generated by an incident also has this impact on relations with the target
+	WAR_GOAL_INFAMY_RELATIONS_INTEREST_IMPACT = -0.3	# -0.50 Each point of infamy generated by an incident also has this impact on relations with countries that have an interest in the target 
+	WAR_GOAL_INFAMY_CONQUER_STATE = 4.0	#Vanilla 5.0
+	WAR_GOAL_INFAMY_RETURN_STATE = 1.5	#Vanilla 2.0
+	WAR_GOAL_INFAMY_TAKE_TREATY_PORT = 1.25	#Vanilla 2.0
 	WAR_GOAL_INFAMY_MAKE_PROTECTORATE = 2.0
 	WAR_GOAL_INFAMY_MAKE_TRIBUTARY = 2.0
 	WAR_GOAL_INFAMY_REDUCE_AUTONOMY = 2.0
 	WAR_GOAL_INFAMY_TRANSFER_SUBJECT = 2.0
 	WAR_GOAL_INFAMY_ANNEX_COUNTRY = 5.0
 	WAR_GOAL_INFAMY_UNIFICATION = 0.5
-	WAR_GOAL_INFAMY_REGIME_CHANGE = 0.45 #Vanilla .50
+	WAR_GOAL_INFAMY_REGIME_CHANGE = 0.45	#Vanilla .50
 	
 	BASE_YEARLY_INFAMY_DECAY_RATE = 5.0	# Decay rate of infamy per year
 	
-	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER = 0.025 #Vanilla 0.03 For each WAR_GOAL_INFAMY_POPULATION_SCALING_FACTOR population in a country/state, multiply infamy by this
-	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_PER_STATE = 10 #5 Infamy population multiplier can't be higher than this for each state affected
-	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_TOTAL = 55 #Vanilla 50 Infamy population multiplier can't be higher than this, regardless of number of states affected
-	WAR_GOAL_INFAMY_HOMELAND_FACTOR = -0.5 # Vanilla 0.25 Infamy is adjusted by this if the states taken/puppeted etc are Homelands of the aggressor
-	WAR_GOAL_INFAMY_UNINCORPORATED_FACTOR = -0.75 # Infamy is adjusted by this if the states taken/puppeted etc are unincorporated
+	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER = 0.025	#Vanilla 0.03 For each WAR_GOAL_INFAMY_POPULATION_SCALING_FACTOR population in a country/state, multiply infamy by this
+	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_PER_STATE = 10	#5 Infamy population multiplier can't be higher than this for each state affected
+	WAR_GOAL_INFAMY_POPULATION_SCALING_MULTIPLIER_MAX_TOTAL = 55	#Vanilla 50 Infamy population multiplier can't be higher than this, regardless of number of states affected
+	WAR_GOAL_INFAMY_HOMELAND_FACTOR = -0.5	# Vanilla 0.25 Infamy is adjusted by this if the states taken/puppeted etc are Homelands of the aggressor
+	WAR_GOAL_INFAMY_UNINCORPORATED_FACTOR = -0.75	# Infamy is adjusted by this if the states taken/puppeted etc are unincorporated
 	WAR_GOAL_INFAMY_OWN_SUBJECT_MULT = 0.3	#0.25 Infamy is multiplied by this for wargoals targeting your own subject
 	SWAY_OFFER_WARGOAL_MANEUVERS_COST_RETURN_STATE = 5
 	

@@ -4,7 +4,7 @@
 	possible = {
 		NOT = { is_country_type = decentralized }
 		babylon_aggressive_diplomatic_plays_permitted = yes
-		NOT = { is_subject_of = scope:target_country }		
+		NOT = { is_subject_of = scope:target_country }
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
@@ -24,10 +24,10 @@ dp_regime_change = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		babylon_aggressive_diplomatic_plays_permitted = yes
-		NOT = { is_subject_of = scope:target_country }	
+		NOT = { is_subject_of = scope:target_country }
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
-		}	
+		}
 	}
 	on_weekly_pulse = {
 	}
@@ -43,10 +43,10 @@ dp_ban_slavery = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		babylon_aggressive_diplomatic_plays_permitted = yes
-		NOT = { is_subject_of = scope:target_country }	
+		NOT = { is_subject_of = scope:target_country }
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
-		}	
+		}
 	}
 	on_weekly_pulse = {
 	}
@@ -68,7 +68,7 @@ dp_conquer_state = {
 			NOT = { is_subject_of = root }
 		}
 		babylon_foreign_laws_permits_play = yes
-		diplomatic_play_has_no_relations_blockers = yes		
+		diplomatic_play_has_no_relations_blockers = yes
 	}
 }
 
@@ -79,7 +79,7 @@ dp_return_state = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		babylon_aggressive_diplomatic_plays_permitted = yes
-		NOT = { is_subject_of = scope:target_country }	
+		NOT = { is_subject_of = scope:target_country }
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
@@ -94,7 +94,7 @@ dp_liberate_subject = {
 	possible = {
 		NOT = { is_country_type = decentralized }
 		babylon_aggressive_diplomatic_plays_permitted = yes
-		NOT = { is_subject_of = scope:target_country }	
+		NOT = { is_subject_of = scope:target_country }
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			is_subject = yes
@@ -106,20 +106,20 @@ dp_liberate_subject = {
 
 dp_liberate_country = {
 	war_goal = liberate_country
-
+	
 	texture = "gfx/interface/icons/war_goals/liberate_country.dds"
-
+	
 	possible = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
-		NOT = { is_subject_of = scope:target_country }	
+		NOT = { is_subject_of = scope:target_country }
 		diplomatic_play_has_no_relations_blockers = yes
 	}
-
+	
 	on_weekly_pulse = {}
-
+	
 	on_war_begins = {}
-
+	
 	on_war_end = {}
 }
 
@@ -152,7 +152,7 @@ dp_take_treaty_port = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
 		}
-		diplomatic_play_has_no_relations_blockers = yes	
+		diplomatic_play_has_no_relations_blockers = yes
 	}
 }
 
@@ -170,7 +170,7 @@ dp_increase_autonomy = {
 	on_weekly_pulse = {}
 	
 	on_war_begins = {}
-
+	
 	on_war_end = {}
 }
 
@@ -190,11 +190,11 @@ dp_reduce_autonomy = {
 	on_weekly_pulse = {}
 	
 	on_war_begins = {}
-
+	
 	on_war_end = {}
 }
 
-dp_make_tributary = {	
+dp_make_tributary = {
 	war_goal = make_tributary
 	
 	texture = "gfx/interface/icons/war_goals/make_tributary.dds"
@@ -210,28 +210,28 @@ dp_make_protectorate = {
 	
 	texture = "gfx/interface/icons/war_goals/make_protectorate.dds"
 	
-	possible = {	
+	possible = {
 		babylon_aggressive_diplomatic_plays_permitted = yes
-		babylon_foreign_laws_permits_play = yes			
+		babylon_foreign_laws_permits_play = yes
 	}
 }
 
 dp_transfer_subject = {
 	war_goal = transfer_subject
 	texture = "gfx/interface/icons/war_goals/transfer_subject.dds"
-
-	possible = {	
+	
+	possible = {
 		NOT = { is_country_type = decentralized }
 		babylon_aggressive_diplomatic_plays_permitted = yes
-		NOT = { is_subject_of = scope:target_country }	
+		NOT = { is_subject_of = scope:target_country }
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			is_subject = yes
 			NOT = { is_subject_of = root }
 		}
-		diplomatic_play_has_no_relations_blocker_with_overlord = yes			
+		diplomatic_play_has_no_relations_blocker_with_overlord = yes
 	}
-
+	
 	on_war_end = {
 		scope:target_country = {
 			#Should fire for customs applicants, created through the customs union diplo play
@@ -262,7 +262,7 @@ dp_annex_subject = {
 					country_has_primary_culture = cu:south_andean
 				}
 			}
-		}			
+		}
 	}
 }
 
@@ -282,8 +282,8 @@ dp_force_recognition = {
 			OR = {
 				is_country_type = recognized
 				is_country_type = colonial
-			}		
-		}	
+			}
+		}
 	}
 }
 
@@ -310,7 +310,7 @@ dp_revolution = {
 	additional_involvement_trigger = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
-	
+		
 		scope:target_country = {
 			capital = {
 				region = {
@@ -358,7 +358,7 @@ dp_secession = {
 	additional_involvement_trigger = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
-	
+		
 		scope:target_country = {
 			capital = {
 				region = {
@@ -392,7 +392,7 @@ dp_contain_threat = {
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
-		}	
+		}
 		custom_tooltip = {
 			text = DIPLO_PLAY_GREAT_POWER_TRIGGER
 			country_rank >= rank_value:great_power
@@ -435,7 +435,7 @@ dp_taiping_rebellion = {
 	additional_involvement_trigger = {
 		NOT = { is_country_type = decentralized }
 		aggressive_diplomatic_plays_permitted = yes
-	
+		
 		scope:target_country = {
 			capital = {
 				region = {
@@ -647,7 +647,7 @@ dp_unify_arabia = {
 		has_technology_researched = pan-nationalism
 		is_subject = no
 		can_form_nation = ARA
-
+		
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			babylon_aggressive_diplomatic_plays_permitted = yes
@@ -675,7 +675,7 @@ dp_unify_india = {
 		NOT = { exists = c:BHT }
 		NOT = { is_country_type = decentralized }
 		has_technology_researched = pan-nationalism
-		is_subject = no 
+		is_subject = no
 		custom_tooltip = {
 			text = BHT_tt
 			can_form_nation = BHT
@@ -745,7 +745,7 @@ dp_unify_andes = {
 		NOT = { exists = c:FND }
 		NOT = { is_country_type = decentralized }
 		has_technology_researched = pan-nationalism
-		is_subject = no 
+		is_subject = no
 		custom_tooltip = {
 			text = FND_tt
 			can_form_nation = FND
@@ -820,10 +820,10 @@ dp_leadership_andes = {
 	
 	selectable_in_lens = {
 		always = no
-	}	
+	}
 	
 	possible = {
-		has_technology_researched = pan-nationalism			
+		has_technology_researched = pan-nationalism
 	}
 }
 

@@ -26,14 +26,14 @@
 
 bg_manufacturing = {
 	category = urban
-
+	
 	always_possible = yes
 	
 	economy_of_scale = yes
 	
 	cash_reserves_max = 25000
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -42,7 +42,7 @@ bg_manufacturing = {
 
 bg_light_industry = {
 	parent_group = bg_manufacturing
-
+	
 	lens = light_industry
 	
 	urbanization = 20
@@ -51,7 +51,7 @@ bg_light_industry = {
 
 bg_heavy_industry = {
 	parent_group = bg_manufacturing
-
+	
 	lens = heavy_industry
 	
 	urbanization = 20
@@ -67,7 +67,7 @@ bg_shipyards = {
 
 bg_military_shipyards = {
 	parent_group = bg_heavy_industry
-		
+	
 	urbanization = 20
 	infrastructure_usage_per_level = 2
 }
@@ -76,7 +76,7 @@ bg_military_shipyards = {
 
 bg_agriculture = {
 	category = rural
-
+	
 	land_usage = rural
 	
 	lens = agriculture
@@ -88,7 +88,7 @@ bg_agriculture = {
 	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -135,14 +135,13 @@ bg_millet_farms = {
 	cash_reserves_max = 25000
 }
 
-
 bg_subsistence_agriculture = {
 	parent_group = bg_agriculture
-
+	
 	always_possible = yes
 	
 	auto_place_buildings = yes
-
+	
 	is_subsistence = yes
 	
 	default_building = building_subsistence_farms
@@ -158,7 +157,7 @@ bg_vineyard_plantations = {
 	parent_group = bg_agriculture
 	
 	default_building = building_vineyard_plantation
-
+	
 	cash_reserves_max = 25000
 }
 
@@ -166,7 +165,7 @@ bg_vineyard_plantations = {
 
 bg_ranching = {
 	category = rural
-
+	
 	land_usage = rural
 	
 	lens = agriculture
@@ -178,7 +177,7 @@ bg_ranching = {
 	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -195,11 +194,11 @@ bg_livestock_ranches = {
 
 bg_subsistence_ranching = {
 	parent_group = bg_ranching
-
+	
 	always_possible = yes
 	
 	auto_place_buildings = yes
-
+	
 	is_subsistence = yes
 	
 	default_building = building_subsistence_farms
@@ -214,7 +213,7 @@ bg_subsistence_ranching = {
 
 bg_plantations = {
 	category = rural
-
+	
 	land_usage = rural
 	
 	economy_of_scale = yes
@@ -227,7 +226,7 @@ bg_plantations = {
 	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -239,7 +238,6 @@ bg_coffee_plantations = {
 	
 	default_building = building_coffee_plantation
 }
-
 
 bg_cotton_plantations = {
 	parent_group = bg_plantations
@@ -293,7 +291,7 @@ bg_banana_plantations = {
 
 bg_mining = {
 	category = rural
-
+	
 	economy_of_scale = yes
 	
 	capped_by_resources = yes
@@ -305,7 +303,7 @@ bg_mining = {
 	urbanization = 10
 	infrastructure_usage_per_level = 2
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -314,15 +312,15 @@ bg_mining = {
 
 bg_gold_fields = {
 	parent_group = bg_mining
-
+	
 	auto_place_buildings = yes
-
+	
 	discoverable_resource = yes
 	
 	depletable_resource = yes
 	
 	pays_taxes = no
-
+	
 	default_building = building_gold_fields
 	
 	fired_pops_become_radical = no
@@ -332,7 +330,7 @@ bg_gold_mining = {
 	parent_group = bg_mining
 	
 	default_building = building_gold_mine
-
+	
 	can_use_slaves = yes
 }
 
@@ -340,7 +338,7 @@ bg_coal_mining = {
 	parent_group = bg_mining
 	
 	default_building = building_coal_mine
-
+	
 	can_use_slaves = yes
 }
 
@@ -348,7 +346,7 @@ bg_iron_mining = {
 	parent_group = bg_mining
 	
 	default_building = building_iron_mine
-
+	
 	can_use_slaves = yes
 }
 
@@ -356,7 +354,7 @@ bg_lead_mining = {
 	parent_group = bg_mining
 	
 	default_building = building_lead_mine
-
+	
 	can_use_slaves = yes
 }
 
@@ -364,7 +362,7 @@ bg_sulfur_mining = {
 	parent_group = bg_mining
 	
 	default_building = building_sulfur_mine
-
+	
 	can_use_slaves = yes
 }
 
@@ -372,7 +370,7 @@ bg_sulfur_mining = {
 
 bg_logging = {
 	category = rural
-
+	
 	capped_by_resources = yes
 	
 	economy_of_scale = yes
@@ -381,14 +379,14 @@ bg_logging = {
 	
 	default_building = building_logging_camp
 	
-	lens = forestry	
+	lens = forestry
 	
 	cash_reserves_max = 25000
 	
 	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -396,12 +394,12 @@ bg_logging = {
 }
 
 bg_rubber = {
-	category = rural 
+	category = rural
 	
 	capped_by_resources = yes
 	
 	economy_of_scale = yes
-
+	
 	can_use_slaves = yes
 	
 	discoverable_resource = yes
@@ -410,14 +408,14 @@ bg_rubber = {
 	
 	default_building = building_rubber_plantation
 	
-	lens = forestry	
+	lens = forestry
 	
-	cash_reserves_max = 25000 
+	cash_reserves_max = 25000
 	
 	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -428,7 +426,7 @@ bg_rubber = {
 
 bg_whaling = {
 	category = rural
-
+	
 	capped_by_resources = yes
 	
 	economy_of_scale = yes
@@ -442,7 +440,7 @@ bg_whaling = {
 	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -451,7 +449,7 @@ bg_whaling = {
 
 bg_fishing = {
 	category = rural
-
+	
 	capped_by_resources = yes
 	
 	economy_of_scale = yes
@@ -465,7 +463,7 @@ bg_fishing = {
 	urbanization = 5
 	infrastructure_usage_per_level = 1
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -476,7 +474,7 @@ bg_fishing = {
 
 bg_oil_extraction = {
 	category = rural
-
+	
 	capped_by_resources = yes
 	
 	economy_of_scale = yes
@@ -492,7 +490,7 @@ bg_oil_extraction = {
 	urbanization = 10
 	infrastructure_usage_per_level = 2
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -505,10 +503,10 @@ bg_service = {
 	category = urban
 	
 	land_usage = urban
-
-	always_possible = yes	
 	
-	auto_place_buildings = yes	
+	always_possible = yes
+	
+	auto_place_buildings = yes
 	
 	economy_of_scale = yes
 	
@@ -521,7 +519,7 @@ bg_urban_facilities = {
 	category = urban
 	
 	lens = urban
-
+	
 	always_possible = yes
 	
 	economy_of_scale = yes
@@ -531,7 +529,7 @@ bg_urban_facilities = {
 	urbanization = 20
 	infrastructure_usage_per_level = 2
 	
-	should_auto_expand = { 
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
@@ -546,20 +544,20 @@ bg_arts = {
 bg_power = {
 	category = development
 	
-	lens = infrastructure	
-
+	lens = infrastructure
+	
 	always_possible = yes
 	
 	economy_of_scale = yes
 	
 	cash_reserves_max = 25000
-
-	should_auto_expand = { 
+	
+	should_auto_expand = {
 		default_auto_expand_rule = yes
 	}
 	
 	economy_of_scale_ai_factor = 1.5
-
+	
 	infrastructure_usage_per_level = 2
 	
 	urbanization = 10
@@ -569,7 +567,7 @@ bg_power = {
 
 bg_government = {
 	category = development
-
+	
 	always_possible = yes
 	
 	is_government_funded = yes
@@ -599,8 +597,8 @@ bg_trade = {
 	category = urban
 	
 	lens = trade
-
-	always_possible = yes	
+	
+	always_possible = yes
 	
 	created_by_trade_routes = yes
 	
@@ -617,7 +615,7 @@ bg_trade = {
 	
 	default_building = building_trade_center
 	
-	cash_reserves_max = 5000	
+	cash_reserves_max = 5000
 	
 	urbanization = 5
 	
@@ -634,7 +632,7 @@ bg_trade = {
 
 bg_infrastructure = {
 	category = development
-
+	
 	always_possible = yes
 	
 	lens = infrastructure
@@ -654,11 +652,11 @@ bg_public_infrastructure = {
 
 bg_construction = {
 	parent_group = bg_public_infrastructure
-
+	
 	infrastructure_usage_per_level = 2
-
+	
 	lens = government
-
+	
 	is_government_funded = yes
 	
 	can_use_slaves = yes
@@ -697,13 +695,13 @@ bg_monuments = {
 
 bg_military = {
 	category = development
-
+	
 	always_possible = yes
 	
 	is_military = yes
 	
 	is_government_funded = yes
-
+	
 	infrastructure_usage_per_level = 0.2
 	
 	lens = military

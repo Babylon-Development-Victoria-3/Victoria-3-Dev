@@ -667,8 +667,8 @@ babylon_infamy_multiplier = {
 			infamy > 20
 		}
 		add = root.infamy
-		subtract = 20		# Remove 'excess' infamy from calculations
-		divide = 80		# Since there's only 80 steps now, on the flipside going above 100 infamy becomes even more dangerous
+		subtract = 20	# Remove 'excess' infamy from calculations
+		divide = 80	# Since there's only 80 steps now, on the flipside going above 100 infamy becomes even more dangerous
 	}
 	else = {
 		value = 0
@@ -1661,7 +1661,7 @@ babylon_weekly_customs_union_minting_cost = {
 	}
 	divide = {
 		add = 1
-		divide = 0.6		# old $DIVISOR$ 
+		divide = 0.6	# old $DIVISOR$ 
 	}
 	if = {
 		limit = {

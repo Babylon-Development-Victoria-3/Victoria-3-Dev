@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:FIN = {		
+	c:FIN = {
 		effect_starting_technology_tier_2_tech = yes
 		effect_starting_politics_conservative = yes
 		
@@ -7,23 +7,22 @@
 		activate_law = law_type:law_oligarchy
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_religious_schools		
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_censorship # Censorship was relatively light in the 1830s, but the threat was there
+		activate_law = law_type:law_censorship	# Censorship was relatively light in the 1830s, but the threat was there
 		activate_law = law_type:law_armed_neutrality
-
 		
 		set_institution_investment_level = {
 			institution = institution_schools
 			level = 2
 		}
-
+		
 		set_institution_investment_level = {
 			institution = institution_citizenship
 			level = 3
-		}	
-
+		}
+		
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}

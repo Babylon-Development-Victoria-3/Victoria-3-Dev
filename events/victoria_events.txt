@@ -51,7 +51,7 @@ victoria.1 = {
 		}
 	}
 	option = {
-		name = victoria.1.a		# God save the Queen!
+		name = victoria.1.a	# God save the Queen!
 		ai_chance = {
 			base = 1
 		}

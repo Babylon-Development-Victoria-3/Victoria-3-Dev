@@ -5,7 +5,7 @@
 		ig:ig_intelligentsia = {
 			add_ruling_interest_group = yes
 		}
-
+		
 		ig:ig_petty_bourgeoisie = {
 			add_ruling_interest_group = yes
 		}
@@ -16,7 +16,7 @@
 		set_tariffs_import_priority = g:hardwood
 		
 		effect_starting_technology_tier_1_tech = yes
-
+		
 		set_tax_level = medium
 		
 		add_taxed_goods = g:liquor
@@ -33,7 +33,7 @@
 		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_protectionism # Corn Laws, babyyy
+		activate_law = law_type:law_protectionism	# Corn Laws, babyyy
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
@@ -43,7 +43,7 @@
 		activate_law = law_type:law_dedicated_police
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_imperialism
-		activate_law = law_type:law_tenant_farmers # enclosure acts
+		activate_law = law_type:law_tenant_farmers	# enclosure acts
 		
 		set_institution_investment_level = {
 			institution = institution_colonial_affairs
@@ -54,17 +54,17 @@
 			institution = institution_schools
 			level = 3
 		}
-
+		
 		set_institution_investment_level = {
 			institution = institution_police
 			level = 1
 		}
-
+		
 		set_institution_investment_level = {
 			institution = institution_citizenship
 			level = 3
-		}	
-
+		}
+		
 		add_journal_entry = { type = je_victoria }
 		if = {
 			limit = {
@@ -72,12 +72,12 @@
 			}
 			add_journal_entry = { type = je_aberdeen_act }
 		}
-
+		
 		add_modifier = {
 			name = brazilian_slave_trade_modifier
-			months = 600 # 50 Years
+			months = 600	# 50 Years
 		}
-
+		
 		add_company = company_type:company_gwr
 		company:company_gwr = {
 			set_company_establishment_date = 1833.1.21

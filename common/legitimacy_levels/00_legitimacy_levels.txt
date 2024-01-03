@@ -52,7 +52,7 @@ legitimacy_level_legitimate = {
 	modifier = {
 		state_loyalists_from_sol_change_mult = 0.25
 	}
-  
+
 	# Loyalists will multiply by 0.05% - 0.75% each month
 	loyalties_gain = {
 		value = legitimacy

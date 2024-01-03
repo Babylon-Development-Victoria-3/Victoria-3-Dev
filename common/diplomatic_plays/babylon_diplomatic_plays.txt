@@ -33,14 +33,14 @@
 	on_weekly_pulse = {}
 	
 	on_war_begins = {}
-
+	
 	on_war_end = {}
 }
 
 dp_babylon_customs_union = {
 	war_goal = humiliation
 	initiator_can_add_war_goals = no
-    target_can_add_war_goals = no
+	target_can_add_war_goals = no
 	texture = "gfx/interface/icons/war_goals/open_market.dds"
 	possible = {
 		always = no
@@ -49,7 +49,7 @@ dp_babylon_customs_union = {
 		#Ensures this diplo play never reaches war directly
 		#Should be diplo play scope
 		if = {
-			limit = { 
+			limit = {
 				escalation >= 60
 			}
 			initiator = {
@@ -88,10 +88,9 @@ dp_babylon_colonial_war = {
 		custom_tooltip = {
 			text = DIPLO_ACTION_RELATIONS_CORDIAL_OR_GREATER_NOT
 			scope:target_country.relations:root < relations_threshold:cordial
-		}				
+		}
 	}
 }
-
 
 dp_babylon_great_war = {
 	requires_interest_marker = no
@@ -101,43 +100,43 @@ dp_babylon_great_war = {
 		NOT = { is_country_type = decentralized }
 		babylon_aggressive_diplomatic_plays_permitted = yes
 		NOT = { is_subject_of = scope:target_country }
-		has_technology_researched = multilateral_alliances 
+		has_technology_researched = multilateral_alliances
 		has_global_variable = trench_works_invented_global
-
+		
 		scope:target_country = {
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
-			has_technology_researched = multilateral_alliances 
+			has_technology_researched = multilateral_alliances
 		}
 		custom_tooltip = {
 			text = DIPLO_ACTION_RELATIONS_CORDIAL_OR_GREATER_NOT
 			scope:target_country.relations:root < relations_threshold:cordial
 		}
 	}
-
+	
 	on_weekly_pulse = {
 		every_scope_play_involved = {
 			root.war = {
 				if = {
 					limit = {
-					    has_war_support = {
-					        target = prev
-					        value < 0
-					    }
+						has_war_support = {
+							target = prev
+							value < 0
+						}
 					}
-
-					add_war_war_support = { 
-						target = prev 
+					
+					add_war_war_support = {
+						target = prev
 						value = 10
 					}
 				}
 			}
 		}
 	}
-
+	
 	on_war_begins = {
 	}
-
+	
 	on_war_end = {
 	}
 }

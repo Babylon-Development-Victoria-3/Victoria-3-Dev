@@ -58,8 +58,8 @@ game_start_bureaucracy_bonus = {
 
 modifier_surveying_kiel = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_negative.dds
- 	country_bureaucracy_add = -500
- }
+	country_bureaucracy_add = -500
+}
 
 #########################
 ### POLITICAL DISCORD ###
@@ -673,7 +673,7 @@ sick_man_absolute_devout = {
 sick_man_absolute_sharia = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	state_education_access_add = 0.10
-	state_accepted_birth_rate_mult = 0.05	
+	state_accepted_birth_rate_mult = 0.05
 	state_conversion_mult = 0.50
 }
 

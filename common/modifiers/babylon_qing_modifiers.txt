@@ -78,7 +78,7 @@ modifier_baojia_system = {
 }
 
 modifier_great_leap_forward = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_gears_positive.dds	
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gears_positive.dds
 	state_construction_mult = 0.1
 	state_infrastructure_mult = 0.2
 	building_group_bg_manufacturing_throughput_add = 0.05
@@ -117,7 +117,7 @@ modifier_successful_sinicization = {
 
 #Sichuan Modifiers
 
-modifier_tusi_system = { 
+modifier_tusi_system = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_positive.dds
 	country_bureaucracy_investment_cost_factor_mult = -0.30
 }
@@ -132,7 +132,7 @@ modifier_highland_tribes = {
 
 #Gansu Modifiers
 
-modifier_weathered_march = { 
+modifier_weathered_march = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
 	state_construction_mult = -0.05
 	state_radicals_from_discrimination_mult = 0.10
@@ -181,4 +181,4 @@ modifier_warlord_era = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_statue_negative.dds
 	country_officers_pol_str_mult = 0.33
 	interest_group_ig_armed_forces_pol_str_mult = 0.33
-}	
+}
