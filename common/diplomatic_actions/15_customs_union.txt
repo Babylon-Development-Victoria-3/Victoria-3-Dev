@@ -111,54 +111,54 @@
 		relations_progress_per_day = 1		# At 100, +1 relations
 		relations_improvement_max = 80
 		subject_type = subject_type_customs_union		# A customs union is technically a type of subject, though it isn't presented this way in-game
-		weekly_effect = {
-			scope:target_country = {
-				remove_modifier ?= modifier_customs_union_payments_negative
-				add_modifier = {
-					name = modifier_customs_union_payments_negative
-					multiplier = scope:target_country.babylon_weekly_customs_union_minting_cost
-				}
-			}
+		# weekly_effect = {
+		# 	scope:target_country = {
+		# 		remove_modifier ?= modifier_customs_union_payments_negative
+		# 		add_modifier = {
+		# 			name = modifier_customs_union_payments_negative
+		# 			multiplier = scope:target_country.babylon_weekly_customs_union_minting_cost
+		# 		}
+		# 	}
 
-			if = {
-				limit = {
-					has_variable = total_customs_union_payment_positive
-				}
-				change_variable = {
-					name = total_customs_union_payment_positive
-					add = {
-						subtract = scope:target_country.var:previous_minting_cost
-						add = scope:target_country.babylon_weekly_customs_union_minting_cost
-					}
-				}
-			} 
-			else = {
-				set_variable = {
-					name = total_customs_union_payment_positive
-					value = {
-						add = {
-							subtract = scope:target_country.var:previous_minting_cost
-							add = scope:target_country.babylon_weekly_customs_union_minting_cost
-						}
-					}
-				}
-			}
+		# 	if = {
+		# 		limit = {
+		# 			has_variable = total_customs_union_payment_positive
+		# 		}
+		# 		change_variable = {
+		# 			name = total_customs_union_payment_positive
+		# 			add = {
+		# 				subtract = scope:target_country.var:previous_minting_cost
+		# 				add = scope:target_country.babylon_weekly_customs_union_minting_cost
+		# 			}
+		# 		}
+		# 	} 
+		# 	else = {
+		# 		set_variable = {
+		# 			name = total_customs_union_payment_positive
+		# 			value = {
+		# 				add = {
+		# 					subtract = scope:target_country.var:previous_minting_cost
+		# 					add = scope:target_country.babylon_weekly_customs_union_minting_cost
+		# 				}
+		# 			}
+		# 		}
+		# 	}
 			
-			scope:target_country = {
-				set_variable = {
-					name = previous_minting_cost
-					value = scope:target_country.babylon_weekly_customs_union_minting_cost
-				}
-			}
+		# 	scope:target_country = {
+		# 		set_variable = {
+		# 			name = previous_minting_cost
+		# 			value = scope:target_country.babylon_weekly_customs_union_minting_cost
+		# 		}
+		# 	}
 
-			remove_modifier ?= modifier_customs_union_payments_positive
-			add_modifier = {
-				name = modifier_customs_union_payments_positive
-				multiplier = {
-					subtract = root.var:total_customs_union_payment_positive
-				}
-			}
-		}
+		# 	remove_modifier ?= modifier_customs_union_payments_positive
+		# 	add_modifier = {
+		# 		name = modifier_customs_union_payments_positive
+		# 		multiplier = {
+		# 			subtract = root.var:total_customs_union_payment_positive
+		# 		}
+		# 	}
+		# }
 		is_about_to_auto_break = {
 			scope:target_country.relations:root < 23			# this is: cordial + 3
 		}
